@@ -1,0 +1,11 @@
+.outer-banner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inner-banner {
+  position: relative; 
+  width: 20%; 
+  aspect-ratio: 1/1; 
+  margin: 30px /* for better visibily */
+}
