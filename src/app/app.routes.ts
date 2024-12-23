@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { PageNotFoundComponent } from '../page-not-found/page-not-found.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { CruiseComponent } from '../booking/cruise/cruise.component';
-import { HotelComponent } from '../booking/hotel/hotel.component';
-import { CocoCayComponent } from '../itinerary/coco-cay/coco-cay.component';
-import { BiminiComponent } from '../itinerary/bimini/bimini.component';
-import { TermsGeneralComponent } from '../rules/terms-general/terms-general.component';
+import { CruiseComponent } from './booking/cruise/cruise.component';
+import { HotelComponent } from './booking/hotel/hotel.component';
+import { CocoCayComponent } from './itinerary/coco-cay/coco-cay.component';
+import { BiminiComponent } from './itinerary/bimini/bimini.component';
+import { TermsGeneralComponent } from './rules/terms-general/terms-general.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
