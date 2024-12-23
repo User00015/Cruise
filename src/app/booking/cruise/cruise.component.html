@@ -1,3 +1,85 @@
-<article class="container mx-auto">
-Cruise works
+<article class="container mx-auto p-4 lg:p-0">
+
+  <div class="flex">
+
+    <div class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 gap-y-4 gap-x-8 p-2">
+      <p-card class="xl:flex">
+        <ng-template #header>
+          <div class="flex flex-row justify-center">
+            <span>Interior Cabin</span>
+          </div>
+          <img class="object-cover w-full xl:min-h-[30vh] md:min-h-[40vh] " ngSrc="interior.jpg" priority width="100" height="100" />
+        </ng-template>
+        <ng-template #title>
+          <div class="">
+            Interior Cabin
+          </div>
+        </ng-template>
+        <ng-template #subtitle>
+          <div>Starting at $753.28* per occupant</div>
+          <div class="text-xs">Total Price: $1,506.56</div>
+        </ng-template>
+
+        <ul class="list-disc  ml-8">
+          <li>Most budget friendly option.</li>
+          <li>Includes dedicated stateroom attendant </li>
+          <li>Attached bathroom w/ toiletries included</li>
+          <li>Up to 340 Sq. Ft.</li>
+          <li>Occupancy of up to 6 guests</li>
+        </ul>
+      </p-card>
+
+      <p-card header="Simple Card" class="xl:flex">
+        <ng-template #header>
+          <div class="flex flex-row justify-center  ">Interior Promenade</div>
+          <img class="object-cover w-full xl:min-h-[30vh] md:min-h-[40vh] " ngSrc="interiorpromenade.jpg" priority width="100" height="100" />
+        </ng-template>
+        <ng-template #title>
+          <div>title</div>
+        </ng-template>
+        <ng-template #subtitle>
+          <div>sub-title</div>
+        </ng-template>
+
+        <ng-template #footer>
+          <div>footer</div>
+        </ng-template>
+      </p-card>
+      <p-card header="Simple Card" class="xl:flex">
+        <ng-template #header>
+          <div class="flex flex-row justify-center  ">Oceanview</div>
+          <img class="object-cover w-full xl:min-h-[30vh] md:min-h-[40vh]" ngSrc="oceanview.jpg" priority width="100" height="100" />
+        </ng-template>
+        <ng-template #title>
+          <div>title</div>
+        </ng-template>
+        <ng-template #subtitle>
+          <div>sub-title</div>
+        </ng-template>
+
+        <ng-template #footer>
+          <div>footer</div>
+        </ng-template>
+      </p-card>
+      <p-card header="Simple Card" class="xl:flex">
+        <ng-template #header>
+          <div class="flex flex-row justify-center  ">Balcony Cabin</div>
+          <img class="object-cover w-full xl:min-h-[30vh] md:min-h-[40vh]" ngSrc="balcony.jpg" priority width="100" height="100" />
+        </ng-template>
+        <ng-template #title>
+          <div>title</div>
+        </ng-template>
+        <ng-template #subtitle>
+          <div>sub-title</div>
+        </ng-template>
+
+        <ng-template #footer>
+          <div>footer</div>
+        </ng-template>
+      </p-card>
+    </div>
+
+  </div>
+
+
 </article>
