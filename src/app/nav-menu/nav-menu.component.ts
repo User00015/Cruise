@@ -1,4 +1,3 @@
-import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { MenuItem } from 'primeng/api';
@@ -6,7 +5,7 @@ import { MenubarModule } from 'primeng/menubar';
 
 @Component({
   selector: 'nav-menu',
-  imports: [MenubarModule, RouterModule, NgIf],
+  imports: [MenubarModule, RouterModule],
   templateUrl: './nav-menu.component.html',
   styleUrl: './nav-menu.component.scss'
 })
@@ -54,7 +53,10 @@ export class NavMenuComponent {
       items: [
         {
           label: "Pre/Post Cruise",
-          icon: 'pi pi-home'
+          icon: 'pi pi-home',
+          command: () => {
+            this.router.navigate(['/info-and-tips/pre-post'])
+          }
         },
         {
           label: "The Ports",
