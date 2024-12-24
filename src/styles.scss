@@ -15,6 +15,12 @@
 $color-hover: #adbaff;
 $color-primary: #a2d9f7;
 $color-secondary: #EE2F68;
+$color-button: #09b1e7;
+$color-button-hover: #06a2d4;
+
+.hyperlink {
+  @apply underline text-blue-500 cursor-pointer;
+}
 
 .p-card {
   .p-card-header {
@@ -44,7 +50,14 @@ $color-secondary: #EE2F68;
   background-color: #0789b3;
 }
 
+.button {
+  background-color: $color-button;
+
+  &:hover {
+    background-color: $color-button-hover;
+  }
+}
+
 .large-text {
   @apply my-4 text-4xl font-semibold;
 }
-
