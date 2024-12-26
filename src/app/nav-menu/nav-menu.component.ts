@@ -60,11 +60,19 @@ export class NavMenuComponent {
         },
         {
           label: "The Ports",
-          icon: 'pi pi-home'
+          icon: 'pi pi-home',
+          command: () => {
+            this.router.navigate(['/info-and-tips/ports'])
+          }
+
         },
         {
           label: "The Ship",
-          icon: 'pi pi-home'
+          icon: 'pi pi-home',
+          command: () => {
+            this.router.navigate(['/info-and-tips/ship'])
+          }
+
         },
       ]
     },
@@ -84,7 +92,10 @@ export class NavMenuComponent {
     },
     {
       label: 'Rules',
-      icon: 'pi pi-home'
+      icon: 'pi pi-home',
+      command: () => {
+        this.router.navigate(['/general-rules'])
+      }
     },
     {
       label: 'Updates',

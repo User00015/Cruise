@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FieldsetModule} from 'primeng/fieldset';
 
 @Component({
   selector: 'app-terms-general',
-  imports: [],
+  imports: [FieldsetModule],
   templateUrl: './terms-general.component.html',
   styleUrl: './terms-general.component.scss'
 })

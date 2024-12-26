@@ -1,0 +1,23 @@
+
+<div class="flex flex-col lg:flex-row p-4">
+  <div class="basis-1/4 space-y-6 *:cursor-pointer">
+    <div class="flex flex-col space-y-4">
+      <p-button label="Warning: Prohibited Items" styleClass="bg-yellow-500 border-yellow-600 hover:border-yellow-700 hover:bg-yellow-600 w-full" routerLink="prohibited-items" severity="warn"></p-button>
+      <p-button label="Info: Beverage packages" styleClass="bg-green-500 border-green-600 hover:border-green-700 hover:bg-green-600 w-full" routerLink="beverage-packages" severity="success"></p-button>
+      <p-button label="Info: Respect Policy" styleClass="bg-green-500 border-green-600 hover:border-green-700 hover:bg-green-600 w-full" routerLink="respect-policy" severity="success"></p-button>
+      <p-button label="Tip: Cabin Magnetism" styleClass="bg-gray-400 border-gray-500 hover:border-gray-600 hover:bg-gray-500 w-full" routerLink="cabin-magnetism" severity="info"></p-button>
+      <p-button label="Tip: Wi-Fi Calling" styleClass="bg-gray-400 border-gray-500 hover:border-gray-600 hover:bg-gray-500 w-full" routerLink="wifi-calling" severity="info"></p-button>
+      <p-button label="Tip: Main Dining" styleClass="bg-gray-400 border-gray-500 hover:border-gray-600 hover:bg-gray-500 w-full" routerLink="main-dining" severity="info"></p-button>
+      <p-button label="Tip: Quick Insights" styleClass="bg-gray-400 border-gray-500 hover:border-gray-600 hover:bg-gray-500 w-full" routerLink="quick-insights" severity="info"></p-button>
+    </div>
+  </div>
+  <div class="basis-3/4">
+    <div class="container mx-auto p-7">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>
+
+<div class="container mx-auto p-7">
+</div>

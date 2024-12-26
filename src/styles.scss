@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
 
-@layer tailwind-base, primeng, tailwind-utilities;
+@layer tailwind-base, tailwind-utilities, primeng ;
 
 @layer tailwind-base {
   @tailwind base;
@@ -60,4 +60,8 @@ $color-button-hover: #06a2d4;
 
 .large-text {
   @apply my-4 text-4xl font-semibold;
+}
+
+.list-circle {
+  list-style: circle;
 }
