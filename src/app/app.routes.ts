@@ -18,6 +18,7 @@ import { CabinMagnetismComponent } from './info-and-tips/ship/cabin-magnetism/ca
 import { WifiCallingComponent } from './info-and-tips/ship/wifi-calling/wifi-calling.component';
 import { MainDiningComponent } from './info-and-tips/ship/main-dining/main-dining.component';
 import { QuickInsightsComponent } from './info-and-tips/ship/quick-insights/quick-insights.component';
+import { TermsAndConditionsComponent } from './rules/terms-and-conditions/terms-and-conditions.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -47,6 +48,7 @@ export const routes: Routes = [
     ]
   },
   { path: 'general-rules', component: TermsGeneralComponent },
+  {path: 'terms-and-conditions', component: TermsAndConditionsComponent},
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
