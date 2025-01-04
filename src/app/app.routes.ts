@@ -19,12 +19,16 @@ import { WifiCallingComponent } from './info-and-tips/ship/wifi-calling/wifi-cal
 import { MainDiningComponent } from './info-and-tips/ship/main-dining/main-dining.component';
 import { QuickInsightsComponent } from './info-and-tips/ship/quick-insights/quick-insights.component';
 import { TermsAndConditionsComponent } from './rules/terms-and-conditions/terms-and-conditions.component';
+import { ScheduleComponent } from './events/schedule/schedule.component';
+import { HostAnEventComponent } from './events/host-an-event/host-an-event.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
   { path: 'booking/cruise', component: CruiseComponent },
   { path: 'booking/hotel', component: HotelComponent },
-  { path: 'itinerary/coco-cay', component: CocoCayComponent },
+  { path: 'events/schedule', component: ScheduleComponent},
+  { path: 'events/host-an-event', component: HostAnEventComponent},
+  { path: 'itinerary/cococay', component: CocoCayComponent },
   { path: 'itinerary/bimini', component: BiminiComponent },
   { path: 'rules/terms_general', component: TermsGeneralComponent },
   { path: 'info-and-tips/pre-post', component: PrePostCruiseComponent },
