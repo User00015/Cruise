@@ -21,13 +21,21 @@ import { QuickInsightsComponent } from './info-and-tips/ship/quick-insights/quic
 import { TermsAndConditionsComponent } from './rules/terms-and-conditions/terms-and-conditions.component';
 import { ScheduleComponent } from './events/schedule/schedule.component';
 import { HostAnEventComponent } from './events/host-an-event/host-an-event.component';
+import { TransportationComponent } from './booking/transportation/transportation.component';
+import { CommunityComponent } from './community/community/community.component';
+import { ContactUsComponent } from './contacts/contact-us/contact-us.component';
+import { BaminiComponent } from './info-and-tips/bamini/bamini.component';
+import { PortCanaveralComponent } from './info-and-tips/port-canaveral/port-canaveral.component';
+import { FaqComponent } from './info-and-tips/faq/faq.component';
+import { LocationMapsComponent } from './info-and-tips/location-maps/location-maps.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
   { path: 'booking/cruise', component: CruiseComponent },
   { path: 'booking/hotel', component: HotelComponent },
-  { path: 'events/schedule', component: ScheduleComponent},
-  { path: 'events/host-an-event', component: HostAnEventComponent},
+  { path: 'booking/transportation', component: TransportationComponent },
+  { path: 'events/schedule', component: ScheduleComponent },
+  { path: 'events/host-an-event', component: HostAnEventComponent },
   { path: 'itinerary/cococay', component: CocoCayComponent },
   { path: 'itinerary/bimini', component: BiminiComponent },
   { path: 'rules/terms_general', component: TermsGeneralComponent },
@@ -51,8 +59,15 @@ export const routes: Routes = [
       { path: 'quick-insights', component: QuickInsightsComponent },
     ]
   },
+  { path: 'info-and-tips/cococay', component: CocoCayComponent },
+  { path: 'info-and-tips/bamini', component: BaminiComponent },
+  { path: 'info-and-tips/port-canaveral', component: PortCanaveralComponent },
+  { path: 'info-and-tips/faq', component: FaqComponent },
+  { path: 'info-and-tips/maps', component: LocationMapsComponent },
+  { path: 'community', component: CommunityComponent },
+  { path: 'contact-us', component: ContactUsComponent },
   { path: 'general-rules', component: TermsGeneralComponent },
-  {path: 'terms-and-conditions', component: TermsAndConditionsComponent},
+  { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];

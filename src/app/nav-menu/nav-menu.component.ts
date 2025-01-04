@@ -42,7 +42,7 @@ export class NavMenuComponent {
           label: 'Transportation',
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/booking/hotel'])
+            this.router.navigate(['/booking/transportation'])
           }
         },
       ]
@@ -82,7 +82,7 @@ export class NavMenuComponent {
           label: "Cosplay Guidelines",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/ports'])
+            this.router.navigate(['/info-and-tips/cosplay'])
           }
 
         },
@@ -98,7 +98,7 @@ export class NavMenuComponent {
           label: "Cococay",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/ship'])
+            this.router.navigate(['/info-and-tips/cococay'])
           }
 
         },
@@ -106,7 +106,7 @@ export class NavMenuComponent {
           label: "Bamini",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/ship'])
+            this.router.navigate(['/info-and-tips/bamini'])
           }
 
         },
@@ -114,7 +114,7 @@ export class NavMenuComponent {
           label: "Port Canaveral",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/ship'])
+            this.router.navigate(['/info-and-tips/port-canaveral'])
           }
 
         },
@@ -122,7 +122,7 @@ export class NavMenuComponent {
           label: "FAQ",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/ship'])
+            this.router.navigate(['/info-and-tips/faq'])
           }
 
         },
@@ -130,7 +130,7 @@ export class NavMenuComponent {
           label: "Location Maps",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/ship'])
+            this.router.navigate(['/info-and-tips/maps'])
           }
 
         },
@@ -139,17 +139,16 @@ export class NavMenuComponent {
     {
       label: 'Community',
       icon: 'pi pi-home',
+      command: () => {
+        this.router.navigate(['/community'])
+      }
     },
-    //{
-    //  label: 'Rules',
-    //  icon: 'pi pi-home',
-    //  command: () => {
-    //    this.router.navigate(['/general-rules'])
-    //  }
-    //},
     {
       label: 'Contact Us',
-      icon: 'pi pi-home'
+      icon: 'pi pi-home',
+      command: () => {
+        this.router.navigate(['/contact-us'])
+      }
     },
   ]
 }
