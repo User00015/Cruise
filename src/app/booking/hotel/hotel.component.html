@@ -18,8 +18,19 @@
 
 <article class="container mx-auto p-4 lg:p-0">
   <div class="flex flex-col gap-y-4 p-4">
-    <div class="text-xl">
-      The following hotels are available via our travel agent.
+    <div class="text-2xl text-center">
+      As part of the ColossalCon Cruise experience, the following hotels have been provided by our travel agent at a discount.
+    </div>
+    <div class="text-gray-600 text-xl">
+      <p>
+        The Hampton Inn has two room types available, as well as HOME2 which has a larger suite room available.
+      </p>
+      <p>
+        When booking, a link is provided that automatically fills in your travel agent number. In case it does not, make sure you provide the code at time of reservation: <span class="font-semibold">10716506</span>
+      </p>
+    </div>
+    <div class="text-xl bg-yellow-200 rounded border border-solid border-yellow-400 text-center p-2 text-gray-900">
+      Final Payments are due by <p class="font-semibold underline">11/17/2024</p>
     </div>
     <div class="flex flex-col gap-y-2">
       <div>
@@ -45,199 +56,119 @@
     </div>
   </div>
 
-  <div class="flex">
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3   gap-y-4 gap-x-8 p-2">
-      <p-card class="xl:flex">
-        <ng-template #header>
-          <div class="flex flex-row justify-center">
-            <span>Hampton Inn</span>
-          </div>
-          <img class="object-cover w-full xl:h-[30vh] md:h-[40vh] " ngSrc="hilton-king.webp" priority width="100" height="100" />
-        </ng-template>
-        <ng-template #title>
-          <div class="">
-            King Room W/ Mini Fridge
-          </div>
-        </ng-template>
-        <ng-template #subtitle>
-          <div>$199</div>
-        </ng-template>
-
-        <div class="text-gray-600 text-xl">Amenities include</div>
-
-        <ul class="list-disc  ml-8">
-          <li>Mini-fridge</li>
-          <li>Free Breakfast</li>
-          <li>Free Wi-Fi</li>
-          <li>HDTV</li>
-        </ul>
-      </p-card>
-
-      <p-card header="" class="xl:flex">
-        <ng-template #header>
-          <div class="flex flex-row justify-center  ">Hampton Inn</div>
-          <img class="object-cover w-full xl:h-[30vh] md:h-[40vh] " ngSrc="hilton-queen.webp" priority width="100" height="100" />
-        </ng-template>
-        <ng-template #title>
-          <div class="">
-            2 Queen Beds W/ Mini Fridge
-          </div>
-        </ng-template>
-        <ng-template #subtitle>
-          <div>$209</div>
-        </ng-template>
-
-        <div class="text-gray-600 text-xl">Amenities include</div>
-
-        <ul class="list-disc  ml-8">
-          <li>Mini-fridge</li>
-          <li>Free Breakfast</li>
-          <li>Free Wi-Fi</li>
-          <li>HDTV</li>
-        </ul>
-      </p-card>
-
-
-      <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MLBCVHX&arrivalDate=2025-02-25&departureDate=2025-02-27&groupCode=CHH919&travelAgent=true&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" target="_blank">
-        <div class="mt-2 mb-8 py-2 px-4 button rounded-xl text-center  content-center cursor-pointer">
-          <span class="text-2xl font-semibold  text-white">Book A Standard Room Now</span>
+  <div class="flex flex-col lg:flex-row justify-center  gap-y-4 gap-x-8 p-2">
+    <p-card class="xl:flex">
+      <ng-template #header>
+        <div class="flex flex-row justify-center">
+          <span>Hampton Inn</span>
         </div>
-      </a>
+        <img class="object-cover w-full xl:h-[30vh] md:h-[40vh] " ngSrc="hilton-king.webp" priority width="100" height="100" />
+      </ng-template>
+      <ng-template #title>
+        <div class="">
+          King Room W/ Mini Fridge
+        </div>
+      </ng-template>
+      <ng-template #subtitle>
+        <div>$199</div>
+      </ng-template>
 
+      <div class="text-gray-600 text-xl">Amenities include</div>
 
-      <p-card header="" class="xl:flex">
-        <ng-template #header>
-          <div class="flex flex-row justify-center  ">HOME2</div>
-          <img class="object-cover w-full xl:h-[30vh] md:h-[40vh]" ngSrc="home2-king.webp" priority width="100" height="100" />
-        </ng-template>
-        <ng-template #title>
-          <div class="">
-            1 King Bed Studio Suite
-          </div>
-        </ng-template>
-        <ng-template #subtitle>
-          <div>$209</div>
-        </ng-template>
+      <ul class="list-disc  ml-8">
+        <li>Sleeps 2</li>
+        <li>Mini-fridge</li>
+        <li>Free Breakfast</li>
+        <li>Free Wi-Fi</li>
+        <li>HDTV</li>
+      </ul>
+    </p-card>
 
-        <div class="text-gray-600 text-xl">Amenities include</div>
+    <p-card header="" class="xl:flex">
+      <ng-template #header>
+        <div class="flex flex-row justify-center  ">Hampton Inn</div>
+        <img class="object-cover w-full xl:h-[30vh] md:h-[40vh] " ngSrc="hilton-queen.webp" priority width="100" height="100" />
+      </ng-template>
+      <ng-template #title>
+        <div class="">
+          2 Queen Beds W/ Mini Fridge
+        </div>
+      </ng-template>
+      <ng-template #subtitle>
+        <div>$209</div>
+      </ng-template>
 
-        <ul class="list-disc  ml-8">
-          <li>Kitchen</li>
-          <li>Full sized fridge</li>
-          <li>Free Wi-Fi</li>
-          <li>HDTV</li>
-          <li>Microwave</li>
-          <li>Additional sofa bed</li>
-        </ul>
-      </p-card>
+      <div class="text-gray-600 text-xl">Amenities include</div>
 
-    </div>
-    <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MLBCPHT&arrivalDate=2025-02-26&departureDate=2025-02-27&groupCode=CHT905&travelAgent=true&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" target="_blank">
-      <div class="mt-2 mb-8 py-2 px-4 button rounded-xl text-center  content-center cursor-pointer">
-        <span class="text-2xl font-semibold  text-white">Book A Studio Suite Now</span>
-      </div>
-    </a>
+      <ul class="list-disc  ml-8">
+        <li>Sleeps 4</li>
+        <li>Mini-fridge</li>
+        <li>Free Breakfast</li>
+        <li>Free Wi-Fi</li>
+        <li>HDTV</li>
+      </ul>
+    </p-card>
 
   </div>
+  <div class="flex flex-row justify-center">
+    <div class="basis-1/2">
+      <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MLBCVHX&arrivalDate=2025-02-25&departureDate=2025-02-27&groupCode=CHH919&travelAgent=true&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" target="_blank">
+        <div class="mt-2 mb-8 py-2 px-4 button rounded-xl text-center  content-center cursor-pointer">
+          <span class="text-2xl font-semibold  text-white">Book Now</span>
+        </div>
+      </a>
+    </div>
+  </div>
 
-  <!--  <div class="flex flex-col  lg:flex-row my-6">
-     <div class="basis-1/2">
-       <div class="text-2xl font-semibold text-gray-600 text-center my-4 basis-6/12">Only $200.00 due at time of reservation</div>
-     </div>
-     <div class="basis-1/2">
-       <a href="https://www.goseatravel.com/GroupRegistrations/view/120114" target="_blank">
-         <div class="py-2 px-4 button rounded-xl text-center  content-center cursor-pointer">
-           <span class="text-2xl font-semibold  text-white">Book Now</span>
-         </div>
-       </a>
-       <div class="text-sm text-gray-400">
-         ‡ Price minimum per cruiser when 2 cruisers are in the room. Price includes tax, fees, port expenses, gratituities, and internet access for 1 device per cruiser. Packages, addons, and upgrades are not included. Prices may vary depending on upgrades, room selection, and addons purchased. See below for what is included in the price of the cabin.
-       </div>
-     </div>
-   </div>
+  <div class="flex flex-col lg:flex-row justify-center  gap-y-4 gap-x-8 p-2">
+    <p-card header="" class="xl:flex">
+      <ng-template #header>
+        <div class="flex flex-row justify-center  ">HOME2</div>
+        <img class="object-cover w-full xl:h-[30vh] md:h-[40vh]" ngSrc="home2-king.webp" priority width="100" height="100" />
+      </ng-template>
+      <ng-template #title>
+        <div class="">
+          1 King Bed Studio Suite
+        </div>
+      </ng-template>
+      <ng-template #subtitle>
+        <div>$209</div>
+      </ng-template>
 
-   <div>
-     <div class="my-10">
-       <div class="large-text text-gray-600">
-         Your Cabin Awaits!
-       </div>
-       <div>
-         Embark on a thrilling 5-day adventure with us! Your cabin is more than just a place to stay; it’s your gateway to an unforgettable journey tailored for anime and gaming enthusiasts.
-       </div>
-     </div>
+      <div class="text-gray-600 text-xl">Amenities include</div>
 
-     <div class="large-text text-gray-600">
-       What’s Included in Your Cabin Price?
-     </div>
+      <ul class="list-disc  ml-8">
+        <li>Sleeps 4</li>
+        <li>Kitchen</li>
+        <li>Full sized fridge</li>
+        <li>Free Wi-Fi</li>
+        <li>HDTV</li>
+        <li>Microwave</li>
+        <li>Additional sofa bed</li>
+      </ul>
+    </p-card>
 
-     <div class="my-12">
+  </div>
+  <div class="flex flex-row justify-center">
+    <div class="basis-1/2">
+      <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=MLBCPHT&arrivalDate=2025-02-26&departureDate=2025-02-27&groupCode=CHT905&travelAgent=true&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink" target="_blank">
+        <div class="mt-2 mb-8 py-2 px-4 button rounded-xl text-center  content-center cursor-pointer">
+          <span class="text-2xl font-semibold  text-white">Book Now</span>
+        </div>
+      </a>
+    </div>
+  </div>
 
-       <ul class="list-none  ml-8">
-         <li class="text-2xl font-medium text-gray-700">
-           <ul class="list-disc ">
-             📋 Convention Lanyard
-             <li class="ml-2 font-normal my-8 ml-9 text-gray-500">
-               <span class="font-medium text-gray-700">Exclusive ColossalCon Cruise Lanyard:</span> Receive a special lanyard designed for our cruisers, this will grant you access to our exclusive events and excursions! Not just a stylish accessory, it safely stores your SetSail card, keeps your hands free for fun and games, and lets you enjoy the convention in some amazing ways!
-             </li>
-           </ul>
-         </li>
-       </ul>
+  <div class="container mx-auto p-6 text-gray-600 flex flex-col text-md md:text-lg">
+    <small class="container p-2 bg-gray-300/50 rounded-lg border border-solid border-black leading-snug">
+      <p class="my-4"><strong>✲ If you have any questions regarding booking a hotel, you can reach out to our travel agent.
+        <a class="hyperlink" href="mailto:dgoodlin@cruiseplanners.com">dgoodlin&#64;cruiseplanners.com</a> or
+        <a class="hyperlink" href="tel:1-760-459-2321,700">760-459-2321 ext. 700</a> ✲</strong></p>
+    </small>
+  </div>
 
-       <ul class="list-none  ml-8">
-         <li class="text-2xl font-medium text-gray-700">
-           <ul class="list-disc ">
-             🚢 A Home at Sea
-             <li class="ml-2 font-normal my-8 ml-9 text-gray-500">
-               <span class="font-medium text-gray-700">Stay in Style:</span> Your cabin, a cozy retreat for the entire 5-day voyage. Whether it’s a peaceful haven or a party hub, your cabin is where your adventure begins and ends each day.
-             </li>
-           </ul>
-         </li>
-       </ul>
 
-       <ul class="list-none  ml-8">
-         <li class="text-2xl font-medium text-gray-700">
-           <ul class="list-disc ">
-             🍽 Royal Caribbean Cuisine
-             <li class="ml-2 font-normal my-8 ml-9 text-gray-500">
-               <span class="font-medium text-gray-700">Dine Like Royalty:</span> Indulge in Royal Caribbean’s exquisite culinary offerings. From lavish buffets to elegant dinners, every meal is a celebration of flavors.
-             </li>
-           </ul>
-         </li>
-       </ul>
-
-       <ul class="list-none  ml-8">
-         <li class="text-2xl font-medium text-gray-700">
-           <ul class="list-disc ">
-             🎉 Exclusive ColossalCon Cruise Events
-             <li class="ml-2 font-normal my-8 ml-9 text-gray-500">
-               <span class="font-medium text-gray-700">Epic Entertainment:</span> Dive into exclusive ColossalCon Cruise events. Participate in the Beach Episode Cosplay Contest, join the Ninja Bar Crawl, and more surprises to come! Each event is crafted for fans like you to create memories that last a lifetime.
-             </li>
-           </ul>
-         </li>
-       </ul>
-
-       <ul class="list-none  ml-8">
-         <li class="text-2xl font-medium text-gray-700">
-           <ul class="list-disc ">
-             📱 Stay Connected
-             <li class="ml-2 font-normal my-8 ml-9 text-gray-500">
-               <span class="font-medium text-gray-700">Wifi Onboard:</span> Stay connected with 1 Free Device Wifi per cruiser. Share your experiences, upload your best cosplay shots, and stay in touch with fellow cruisers and friends back home.
-             </li>
-           </ul>
-         </li>
-       </ul>
-
-     </div>
-
-     <div class="text-lg lg:text-2xl  text-gray-600 my-8">
-       Your booking on the ColossalCon Cruise isn’t just a place to sleep; it’s your ticket to an immersive world where anime and gaming culture come to life on the high seas. Book now and join us for an experience you’ll cherish forever!
-     </div>
-
-     <div class="text-lg lg:text-2xl  text-gray-500">
-       Please see <span class="hyperlink" routerLink="/rules/terms_general" routerLinkActive="active">Terms and Conditions</span>  for more information regarding booking.
-     </div>
-   </div> -->
 
 </article>
 <div class="lg:mb-12 hidden lg:block">
