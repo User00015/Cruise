@@ -2,8 +2,6 @@ import { Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CruiseComponent } from './booking/cruise/cruise.component';
 import { HotelComponent } from './booking/hotel/hotel.component';
-import { CocoCayComponent } from './itinerary/coco-cay/coco-cay.component';
-import { BiminiComponent } from './itinerary/bimini/bimini.component';
 import { TermsGeneralComponent } from './rules/terms-general/terms-general.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PrePostCruiseComponent } from './info-and-tips/pre-post-cruise/pre-post-cruise.component';
@@ -28,6 +26,10 @@ import { BaminiComponent } from './info-and-tips/bamini/bamini.component';
 import { PortCanaveralComponent } from './info-and-tips/port-canaveral/port-canaveral.component';
 import { FaqComponent } from './info-and-tips/faq/faq.component';
 import { LocationMapsComponent } from './info-and-tips/location-maps/location-maps.component';
+import { CosplayGuidelinesComponent } from './info-and-tips/cosplay-guidelines/cosplay-guidelines.component';
+import { CococayComponent } from './info-and-tips/cococay/cococay.component';
+import { ByoComponent } from './info-and-tips/ship/byo/byo.component';
+import { SeasickComponent } from './info-and-tips/ship/seasick/seasick.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -36,10 +38,9 @@ export const routes: Routes = [
   { path: 'booking/transportation', component: TransportationComponent },
   { path: 'events/schedule', component: ScheduleComponent },
   { path: 'events/host-an-event', component: HostAnEventComponent },
-  { path: 'itinerary/cococay', component: CocoCayComponent },
-  { path: 'itinerary/bimini', component: BiminiComponent },
   { path: 'rules/terms_general', component: TermsGeneralComponent },
   { path: 'info-and-tips/pre-post', component: PrePostCruiseComponent },
+  { path: 'info-and-tips/cosplay', component: CosplayGuidelinesComponent },
   {
     path: 'info-and-tips/ports', component: PortsComponent,
     children: [
@@ -53,13 +54,15 @@ export const routes: Routes = [
       { path: 'prohibited-items', component: ProhibitedItemsComponent },
       { path: 'beverage-packages', component: BeveragePackagesComponent },
       { path: 'respect-policy', component: RespectPolicyComponent },
+      { path: 'byo-drinks', component: ByoComponent },
       { path: 'cabin-magnetism', component: CabinMagnetismComponent },
       { path: 'wifi-calling', component: WifiCallingComponent },
       { path: 'main-dining', component: MainDiningComponent },
       { path: 'quick-insights', component: QuickInsightsComponent },
+      { path: 'seasick', component: SeasickComponent },
     ]
   },
-  { path: 'info-and-tips/cococay', component: CocoCayComponent },
+  { path: 'info-and-tips/cococay', component: CococayComponent },
   { path: 'info-and-tips/bamini', component: BaminiComponent },
   { path: 'info-and-tips/port-canaveral', component: PortCanaveralComponent },
   { path: 'info-and-tips/faq', component: FaqComponent },

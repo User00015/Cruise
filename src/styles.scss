@@ -20,6 +20,10 @@ $color-button-hover: #06a2d4;
 
 .hyperlink {
   @apply underline text-blue-500 cursor-pointer;
+
+  &:hover {
+    @apply text-blue-500/50;
+  }
 }
 
 .p-card {
