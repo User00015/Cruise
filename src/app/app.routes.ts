@@ -63,7 +63,7 @@ export const routes: Routes = [
     ]
   },
   { path: 'info-and-tips/cococay', component: CococayComponent },
-  { path: 'info-and-tips/bamini', component: BaminiComponent },
+  { path: 'info-and-tips/bimini', component: BaminiComponent },
   { path: 'info-and-tips/port-canaveral', component: PortCanaveralComponent },
   { path: 'info-and-tips/faq', component: FaqComponent },
   { path: 'info-and-tips/maps', component: LocationMapsComponent },

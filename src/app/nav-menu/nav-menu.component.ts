@@ -103,10 +103,10 @@ export class NavMenuComponent {
 
         },
         {
-          label: "Bamini",
+          label: "Bimini",
           icon: 'pi pi-home',
           command: () => {
-            this.router.navigate(['/info-and-tips/bamini'])
+            this.router.navigate(['/info-and-tips/bimini'])
           }
 
         },
@@ -139,9 +139,36 @@ export class NavMenuComponent {
     {
       label: 'Community',
       icon: 'pi pi-home',
-      command: () => {
-        this.router.navigate(['/community'])
-      }
+      items: [
+        {
+          label: "Facebook Groups",
+          icon: 'pi pi-home',
+          items: [
+            {
+              label: "Facebook Page",
+              icon: "pi pi-home",
+              command: () => {
+                window.open("https://www.facebook.com/Colossalconcruise", "_blank");
+              }
+            },
+            {
+              label: "Facebook Cruisers Group",
+              icon: "pi pi-home",
+              command: () => {
+                window.open("https://www.facebook.com/groups/ColossalconCruise2019", "_blank");
+              }
+            }
+          ]
+        },
+        {
+          label: "Discord",
+          icon: 'pi pi-home',
+          command: () => {
+            window.open("https://discord.gg/snskavqjf3", "_blank");
+          }
+        },
+
+      ]
     },
     {
       label: 'Contact Us',
