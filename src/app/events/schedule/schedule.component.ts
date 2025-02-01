@@ -1,11 +1,18 @@
-import { Component } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
+import { Component, ElementRef, viewChild } from '@angular/core';
 
 @Component({
   selector: 'app-schedule',
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './schedule.component.html',
   styleUrl: './schedule.component.scss'
 })
 export class ScheduleComponent {
 
+catalog = viewChild<ElementRef<HTMLDivElement>>('catalog');
+
+
+  jumpToCatalog() {
+    this.catalog()?.nativeElement.scrollIntoView({behavior: 'smooth'});
+  }
 }
