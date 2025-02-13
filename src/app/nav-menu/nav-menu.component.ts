@@ -22,25 +22,25 @@ export class NavMenuComponent {
     },
     {
       label: 'Attend/Booking',
-      icon: 'pi pi-home',
+      icon: 'pi pi-book',
       items: [
         {
           label: 'Cruise',
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/booking/cruise'])
           }
         },
         {
           label: 'Hotel',
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/booking/hotel'])
           }
         },
         {
           label: 'Transportation',
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/booking/transportation'])
           }
@@ -49,18 +49,18 @@ export class NavMenuComponent {
     },
     {
       label: 'Events',
-      icon: 'pi pi-home',
+      icon: 'pi pi-calendar',
       items: [
         {
           label: "Schedule",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/events/schedule'])
           }
         },
         {
           label: "Host an Event",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/events/host-an-event'])
           }
@@ -69,18 +69,18 @@ export class NavMenuComponent {
     },
     {
       label: 'Info/Tips',
-      icon: 'pi pi-home',
+      icon: 'pi pi-info-circle',
       items: [
         {
           label: "Pre-Cruise Prep & Tips",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/pre-post'])
           }
         },
         {
           label: "Cosplay Guidelines",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/cosplay'])
           }
@@ -88,7 +88,7 @@ export class NavMenuComponent {
         },
         {
           label: "The Ship",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/ship'])
           }
@@ -96,7 +96,7 @@ export class NavMenuComponent {
         },
         {
           label: "Cococay",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/cococay'])
           }
@@ -104,7 +104,7 @@ export class NavMenuComponent {
         },
         {
           label: "Bimini",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/bimini'])
           }
@@ -112,23 +112,23 @@ export class NavMenuComponent {
         },
         {
           label: "Port Canaveral",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/port-canaveral'])
           }
 
         },
-        {
-          label: "FAQ",
-          icon: 'pi pi-home',
-          command: () => {
-            this.router.navigate(['/info-and-tips/faq'])
-          }
+        //{
+        //  label: "FAQ",
+        //  //icon: 'pi pi-home',
+        //  command: () => {
+        //    this.router.navigate(['/info-and-tips/faq'])
+        //  }
 
-        },
+        //},
         {
           label: "Location Maps",
-          icon: 'pi pi-home',
+          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/maps'])
           }
@@ -138,22 +138,22 @@ export class NavMenuComponent {
     },
     {
       label: 'Community',
-      icon: 'pi pi-home',
+      icon: 'pi pi-users',
       items: [
         {
           label: "Facebook Groups",
-          icon: 'pi pi-home',
+          icon: 'pi pi-facebook',
           items: [
             {
               label: "Facebook Page",
-              icon: "pi pi-home",
+              //icon: "pi pi-home",
               command: () => {
                 window.open("https://www.facebook.com/Colossalconcruise", "_blank");
               }
             },
             {
               label: "Facebook Cruisers Group",
-              icon: "pi pi-home",
+              //icon: "pi pi-home",
               command: () => {
                 window.open("https://www.facebook.com/groups/ColossalconCruise2019", "_blank");
               }
@@ -162,7 +162,7 @@ export class NavMenuComponent {
         },
         {
           label: "Discord",
-          icon: 'pi pi-home',
+          icon: 'pi pi-discord',
           command: () => {
             window.open("https://discord.gg/snskavqjf3", "_blank");
           }
@@ -172,7 +172,7 @@ export class NavMenuComponent {
     },
     {
       label: 'Contact Us',
-      icon: 'pi pi-home',
+      icon: 'pi pi-envelope',
       command: () => {
         this.router.navigate(['/contact-us'])
       }
