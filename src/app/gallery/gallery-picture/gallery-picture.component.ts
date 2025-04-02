@@ -4,7 +4,7 @@ import { ImageModule } from 'primeng/image';
 
 @Component({
   selector: 'gallery-picture',
-  imports: [NgOptimizedImage, ImageModule],
+  imports: [ImageModule],
   templateUrl: './gallery-picture.component.html',
   styleUrl: './gallery-picture.component.scss'
 })
