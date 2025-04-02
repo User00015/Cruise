@@ -30,6 +30,7 @@ import { CosplayGuidelinesComponent } from './info-and-tips/cosplay-guidelines/c
 import { CococayComponent } from './info-and-tips/cococay/cococay.component';
 import { ByoComponent } from './info-and-tips/ship/byo/byo.component';
 import { SeasickComponent } from './info-and-tips/ship/seasick/seasick.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -71,6 +72,7 @@ export const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'general-rules', component: TermsGeneralComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
+  { path: 'gallery', component: GalleryComponent },
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];

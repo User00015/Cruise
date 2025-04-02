@@ -26,21 +26,18 @@ export class NavMenuComponent {
       items: [
         {
           label: 'Cruise',
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/booking/cruise'])
           }
         },
         {
           label: 'Hotel',
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/booking/hotel'])
           }
         },
         {
           label: 'Transportation',
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/booking/transportation'])
           }
@@ -53,14 +50,12 @@ export class NavMenuComponent {
       items: [
         {
           label: "Schedule",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/events/schedule'])
           }
         },
         {
           label: "Host an Event",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/events/host-an-event'])
           }
@@ -73,14 +68,12 @@ export class NavMenuComponent {
       items: [
         {
           label: "Pre-Cruise Prep & Tips",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/pre-post'])
           }
         },
         {
           label: "Cosplay Guidelines",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/cosplay'])
           }
@@ -88,7 +81,6 @@ export class NavMenuComponent {
         },
         {
           label: "The Ship",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/ship'])
           }
@@ -96,7 +88,6 @@ export class NavMenuComponent {
         },
         {
           label: "Cococay",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/cococay'])
           }
@@ -104,31 +95,13 @@ export class NavMenuComponent {
         },
         {
           label: "Bimini",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/bimini'])
           }
 
         },
         {
-          label: "Port Canaveral",
-          //icon: 'pi pi-home',
-          command: () => {
-            this.router.navigate(['/info-and-tips/port-canaveral'])
-          }
-
-        },
-        //{
-        //  label: "FAQ",
-        //  //icon: 'pi pi-home',
-        //  command: () => {
-        //    this.router.navigate(['/info-and-tips/faq'])
-        //  }
-
-        //},
-        {
           label: "Location Maps",
-          //icon: 'pi pi-home',
           command: () => {
             this.router.navigate(['/info-and-tips/maps'])
           }
@@ -169,6 +142,12 @@ export class NavMenuComponent {
         },
 
       ]
+    },
+    {
+      label: 'Gallery',
+      command: () => {
+        this.router.navigate(['/gallery'])
+      }
     },
     {
       label: 'Contact Us',

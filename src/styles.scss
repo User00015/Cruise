@@ -57,7 +57,7 @@ $color-button-hover: #06a2d4;
 .button {
   background-color: $color-button;
 
-  &:hover {
+  &:hover:not(.disabled) {
     background-color: $color-button-hover;
   }
 }

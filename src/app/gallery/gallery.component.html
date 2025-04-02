@@ -1,0 +1,35 @@
+<article class="container mx-auto p-7">
+
+  <!-- <div class="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-y-4 gap-x-8 p-2 justify-center justify-items-center sm:justify-items-start sm:justify-center "> -->
+
+  <div class="text-center py-4 text-gray-600">
+    <h1 class="large-text">Thursday</h1>
+  </div>
+
+  <div class="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-y-4 gap-x-8 p-2 justify-center justify-items-center sm:justify-items-start sm:justify-center">
+    @for(url of thursdayUrls ; track url) {
+    <gallery-picture [imgName]="url"></gallery-picture>
+    }
+  </div>
+
+  <div class="text-center py-4 text-gray-600">
+    <h1 class="large-text">Friday</h1>
+  </div>
+  <div class="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-y-4 gap-x-8 p-2 justify-center justify-items-center sm:justify-items-start sm:justify-center">
+    @for(url of fridayUrls ; track url) {
+    <gallery-picture [imgName]="url"></gallery-picture>
+    }
+  </div>
+
+  <div class="text-center py-4 text-gray-600">
+    <h1 class="large-text">Saturday</h1>
+  </div>
+  <div class="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-y-4 gap-x-8 p-2 justify-center justify-items-center sm:justify-items-start sm:justify-center">
+    @for(url of saturdayUrls ; track url) {
+    <gallery-picture [imgName]="url"></gallery-picture>
+    }
+  </div>
+  <!-- </div> -->
+
+
+</article>
