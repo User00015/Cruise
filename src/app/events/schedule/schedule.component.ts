@@ -3,7 +3,7 @@ import { Component, ElementRef, viewChild } from '@angular/core';
 
 @Component({
   selector: 'app-schedule',
-  imports: [NgOptimizedImage],
+  imports: [],
   templateUrl: './schedule.component.html',
   styleUrl: './schedule.component.scss'
 })
