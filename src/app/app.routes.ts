@@ -31,6 +31,7 @@ import { CococayComponent } from './info-and-tips/cococay/cococay.component';
 import { ByoComponent } from './info-and-tips/ship/byo/byo.component';
 import { SeasickComponent } from './info-and-tips/ship/seasick/seasick.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { NassauComponent } from './info-and-tips/nassau/nassau.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -65,6 +66,7 @@ export const routes: Routes = [
   },
   { path: 'info-and-tips/cococay', component: CococayComponent },
   { path: 'info-and-tips/bimini', component: BaminiComponent },
+  { path: 'info-and-tips/nassau', component: NassauComponent },
   { path: 'info-and-tips/port-canaveral', component: PortCanaveralComponent },
   { path: 'info-and-tips/faq', component: FaqComponent },
   { path: 'info-and-tips/maps', component: LocationMapsComponent },

@@ -92,11 +92,18 @@ export class NavMenuComponent {
             this.router.navigate(['/info-and-tips/cococay'])
           }
 
+          //},
+          //{
+          //  label: "Bimini",
+          //  command: () => {
+          //    this.router.navigate(['/info-and-tips/bimini'])
+          //  }
+
         },
         {
-          label: "Bimini",
+          label: "Nassau",
           command: () => {
-            this.router.navigate(['/info-and-tips/bimini'])
+            this.router.navigate(['/info-and-tips/nassau'])
           }
 
         },
@@ -140,11 +147,26 @@ export class NavMenuComponent {
             window.open("https://discord.gg/snskavqjf3", "_blank");
           }
         },
+        {
+          label: "Instagram",
+          icon: 'pi pi-instagram',
+          command: () => {
+            window.open("https://www.instagram.com/colossalconcruise", "_blank");
+          }
+        },
+        {
+          label: "Discord",
+          icon: 'pi pi-tiktok',
+          command: () => {
+            window.open("https://www.tiktok.com/@colossalcon.cruise", "_blank");
+          }
+        },
 
       ]
     },
     {
       label: 'Gallery',
+      icon: 'pi pi-images',
       command: () => {
         this.router.navigate(['/gallery'])
       }

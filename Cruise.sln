@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cruise", "Cruise.csproj", "{BEB03BA9-6487-3C36-6531-AB6561071679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB03BA9-6487-3C36-6531-AB6561071679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB03BA9-6487-3C36-6531-AB6561071679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB03BA9-6487-3C36-6531-AB6561071679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB03BA9-6487-3C36-6531-AB6561071679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A00CB61-9059-48D6-B93C-7CEBDAD7EB10}
+	EndGlobalSection
+EndGlobal

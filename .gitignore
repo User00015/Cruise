@@ -45,3 +45,5 @@ Thumbs.db
 /.vs
 *.sqlite
 /.vs/slnx.sqlite
+/obj/Debug
+*.user
