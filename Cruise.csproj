@@ -54,8 +54,11 @@
     <None Include="public\perfect-day-at-cococay-wayfinding-maps.pdf" />
     <None Include="README.md" />
     <None Include="src\app\app.component.scss" />
-    <None Include="src\app\booking\cruise\cruise.component.scss" />
-    <None Include="src\app\booking\hotel\hotel.component.scss" />
+    <None Include="src\app\booking\cruise\2027\cruise.component.scss" />
+    <None Include="src\app\booking\cruise\common\cruise-footer\cruise-footer.component.scss" />
+    <None Include="src\app\booking\cruise\2026\cruise.component.scss" />
+    <None Include="src\app\booking\hotel\2026\hotel2026.component.scss" />
+    <None Include="src\app\booking\hotel\2027\hotel2027\hotel2027.component.scss" />
     <None Include="src\app\booking\transportation\transportation.component.scss" />
     <None Include="src\app\community\community\community.component.scss" />
     <None Include="src\app\contacts\contact-us\contact-us.component.scss" />
@@ -447,8 +450,11 @@
     <Content Include="public\weebsoup-cosplay.png" />
     <Content Include="public\weebsoup-cosplay_half.png" />
     <Content Include="src\app\app.component.html" />
-    <Content Include="src\app\booking\cruise\cruise.component.html" />
-    <Content Include="src\app\booking\hotel\hotel.component.html" />
+    <Content Include="src\app\booking\cruise\2027\cruise.component.html" />
+    <Content Include="src\app\booking\cruise\common\cruise-footer\cruise-footer.component.html" />
+    <Content Include="src\app\booking\cruise\2026\cruise.component.html" />
+    <Content Include="src\app\booking\hotel\2026\hotel2026.component.html" />
+    <Content Include="src\app\booking\hotel\2027\hotel2027\hotel2027.component.html" />
     <Content Include="src\app\booking\transportation\transportation.component.html" />
     <Content Include="src\app\community\community\community.component.html" />
     <Content Include="src\app\contacts\contact-us\contact-us.component.html" />
@@ -490,8 +496,11 @@
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.config.ts" />
     <TypeScriptCompile Include="src\app\app.routes.ts" />
-    <TypeScriptCompile Include="src\app\booking\cruise\cruise.component.ts" />
-    <TypeScriptCompile Include="src\app\booking\hotel\hotel.component.ts" />
+    <TypeScriptCompile Include="src\app\booking\cruise\2027\cruise.component.ts" />
+    <TypeScriptCompile Include="src\app\booking\cruise\common\cruise-footer\cruise-footer.component.ts" />
+    <TypeScriptCompile Include="src\app\booking\cruise\2026\cruise.component.ts" />
+    <TypeScriptCompile Include="src\app\booking\hotel\2026\hotel2026.component.ts" />
+    <TypeScriptCompile Include="src\app\booking\hotel\2027\hotel2027\hotel2027.component.ts" />
     <TypeScriptCompile Include="src\app\booking\transportation\transportation.component.ts" />
     <TypeScriptCompile Include="src\app\community\community\community.component.ts" />
     <TypeScriptCompile Include="src\app\contacts\contact-us\contact-us.component.ts" />
@@ -528,6 +537,7 @@
     <TypeScriptCompile Include="src\app\rules\terms-general\terms-general.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />

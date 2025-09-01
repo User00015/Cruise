@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 import { CardModule } from 'primeng/card';
 
 @Component({
-  selector: 'app-hotel',
+  selector: 'app-hotel2027',
   imports: [CardModule, NgOptimizedImage],
-  templateUrl: './hotel.component.html',
-  styleUrl: './hotel.component.scss'
+  templateUrl: './hotel2027.component.html',
+  styleUrl: './hotel2027.component.scss'
 })
-export class HotelComponent {
+export class Hotel2027Component {
 
 }

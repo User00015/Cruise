@@ -1,7 +1,5 @@
 import { Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { CruiseComponent } from './booking/cruise/cruise.component';
-import { HotelComponent } from './booking/hotel/hotel.component';
 import { TermsGeneralComponent } from './rules/terms-general/terms-general.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PrePostCruiseComponent } from './info-and-tips/pre-post-cruise/pre-post-cruise.component';
@@ -32,11 +30,17 @@ import { ByoComponent } from './info-and-tips/ship/byo/byo.component';
 import { SeasickComponent } from './info-and-tips/ship/seasick/seasick.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { NassauComponent } from './info-and-tips/nassau/nassau.component';
+import { Cruise2026Component } from './booking/cruise/2026/cruise.component';
+import { Cruise2027Component } from './booking/cruise/2027/cruise.component';
+import { Hotel2026Component } from './booking/hotel/2026/hotel2026.component';
+import { Hotel2027Component } from './booking/hotel/2027/hotel2027/hotel2027.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
-  { path: 'booking/cruise', component: CruiseComponent },
-  { path: 'booking/hotel', component: HotelComponent },
+  { path: 'booking/2026/cruise', component: Cruise2026Component },
+  { path: 'booking/2027/cruise', component: Cruise2027Component },
+  { path: 'booking/2026/hotel', component: Hotel2026Component },
+  { path: 'booking/2027/hotel', component: Hotel2027Component },
   { path: 'booking/transportation', component: TransportationComponent },
   { path: 'events/schedule', component: ScheduleComponent },
   { path: 'events/host-an-event', component: HostAnEventComponent },
@@ -76,5 +80,5 @@ export const routes: Routes = [
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent },
+  { path: '**', redirectTo: 'landing-page' },
 ];

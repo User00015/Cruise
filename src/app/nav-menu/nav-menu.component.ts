@@ -25,21 +25,42 @@ export class NavMenuComponent {
       icon: 'pi pi-book',
       items: [
         {
-          label: 'Cruise',
+          label: 'Cruise - 2026',
           command: () => {
-            this.router.navigate(['/booking/cruise'])
+            this.router.navigate(['/booking/2026/cruise'])
           }
         },
         {
-          label: 'Hotel',
+          label: 'Hotel - 2026',
           command: () => {
-            this.router.navigate(['/booking/hotel'])
+            this.router.navigate(['/booking/2026/hotel'])
           }
         },
         {
-          label: 'Transportation',
+          label: 'Transportation - 2026',
           command: () => {
             this.router.navigate(['/booking/transportation'])
+          }
+        },
+        {
+          label: '    -------------------    '
+        },
+        {
+          label: 'Cruise - 2027',
+          command: () => {
+            this.router.navigate(['/booking/2027/cruise'])
+          }
+        },
+        {
+          label: 'Hotel - 2027',
+          command: () => {
+            this.router.navigate(['/booking/2027/hotel'])
+          }
+        },
+        {
+          label: 'Transportation - 2027',
+          command: () => {
+            this.router.navigate(['/booking/2027/hotel'])
           }
         },
       ]
@@ -155,7 +176,7 @@ export class NavMenuComponent {
           }
         },
         {
-          label: "Discord",
+          label: "TikTok",
           icon: 'pi pi-tiktok',
           command: () => {
             window.open("https://www.tiktok.com/@colossalcon.cruise", "_blank");

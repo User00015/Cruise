@@ -18,6 +18,25 @@ $color-secondary: #EE2F68;
 $color-button: #09b1e7;
 $color-button-hover: #06a2d4;
 
+@media (prefers-color-scheme: dark) {
+
+  .text-gray-700 {
+    @apply text-gray-200;
+  }
+
+  .text-gray-600 {
+    @apply text-gray-300;
+  }
+
+  .text-gray-500 {
+    @apply text-gray-400;
+  }
+
+  .text-black {
+    @apply text-gray-200;
+  }
+}
+
 .hyperlink {
   @apply underline text-blue-500 cursor-pointer;
 
