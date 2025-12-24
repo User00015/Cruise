@@ -62,6 +62,7 @@
     <None Include="src\app\booking\transportation\transportation.component.scss" />
     <None Include="src\app\community\community\community.component.scss" />
     <None Include="src\app\contacts\contact-us\contact-us.component.scss" />
+    <None Include="src\app\cosplay-contest\cosplay-contest.component.scss" />
     <None Include="src\app\events\host-an-event\host-an-event.component.scss" />
     <None Include="src\app\events\schedule\schedule.component.scss" />
     <None Include="src\app\footer\footer.component.scss" />
@@ -458,6 +459,7 @@
     <Content Include="src\app\booking\transportation\transportation.component.html" />
     <Content Include="src\app\community\community\community.component.html" />
     <Content Include="src\app\contacts\contact-us\contact-us.component.html" />
+    <Content Include="src\app\cosplay-contest\cosplay-contest.component.html" />
     <Content Include="src\app\events\host-an-event\host-an-event.component.html" />
     <Content Include="src\app\events\schedule\schedule.component.html" />
     <Content Include="src\app\footer\footer.component.html" />
@@ -504,6 +506,7 @@
     <TypeScriptCompile Include="src\app\booking\transportation\transportation.component.ts" />
     <TypeScriptCompile Include="src\app\community\community\community.component.ts" />
     <TypeScriptCompile Include="src\app\contacts\contact-us\contact-us.component.ts" />
+    <TypeScriptCompile Include="src\app\cosplay-contest\cosplay-contest.component.ts" />
     <TypeScriptCompile Include="src\app\events\host-an-event\host-an-event.component.ts" />
     <TypeScriptCompile Include="src\app\events\schedule\schedule.component.ts" />
     <TypeScriptCompile Include="src\app\footer\footer.component.ts" />

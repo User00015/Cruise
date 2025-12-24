@@ -84,6 +84,13 @@ export class NavMenuComponent {
       ]
     },
     {
+      label: 'Cosplay Contest',
+      icon: 'pi pi-star',
+      command: () => {
+        this.router.navigate(['/cosplay-contest'])
+      }
+    },
+    {
       label: 'Info/Tips',
       icon: 'pi pi-info-circle',
       items: [
