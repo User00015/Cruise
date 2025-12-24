@@ -35,6 +35,7 @@ import { Cruise2027Component } from './booking/cruise/2027/cruise.component';
 import { Hotel2026Component } from './booking/hotel/2026/hotel2026.component';
 import { Hotel2027Component } from './booking/hotel/2027/hotel2027/hotel2027.component';
 import { CosplayContestComponent } from './cosplay-contest/cosplay-contest.component';
+import { CosplayContestOverviewComponent } from './cosplay-contest/overview/overview.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -80,7 +81,7 @@ export const routes: Routes = [
   { path: 'general-rules', component: TermsGeneralComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'gallery', component: GalleryComponent },
-  { path: 'cosplay-contest', component: CosplayContestComponent},
+  { path: 'cosplay-contest/overview', component: CosplayContestOverviewComponent},
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
   { path: '**', redirectTo: 'landing-page' },
 ];
