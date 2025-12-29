@@ -1,4 +1,3 @@
-import { NgOptimizedImage } from '@angular/common';
 import { Component, ElementRef, viewChild } from '@angular/core';
 
 @Component({
