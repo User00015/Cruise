@@ -1,542 +1,1065 @@
 <article class="container mx-auto p-7">
-  <div class="flex flex-col gap-y-4">
+    <div class="flex flex-col gap-y-4">
 
-    <div class="hyperlink" (click)="jumpToCatalog()">Jump to schedule catalog</div>
-    <img class="object-cover w-full" src="2026-sch1.png" priority width="100" height="100" />
-    <a class="hyperlink" href="2026-sch1.png" download="2026-sch1.png">Download schedule for Wednesday</a>
-    <img class="object-cover w-full" src="2026-sch2.png" priority width="100" height="100" />
-    <a class="hyperlink" href="2026-sch2.png" download="2026-sch2.png">Download schedule for Thursday</a>
-    <img class="object-cover w-full" src="2026-sch3.png" priority width="100" height="100" />
-    <a class="hyperlink" href="2026-sch3.png" download="2026-sch3.png">Download schedule for Friday</a>
-    <img class="object-cover w-full" src="2026-sch4.png" priority width="100" height="100" />
-    <a class="hyperlink" href="2026-sch4.png" download="2026-sch4.png">Download schedule for Saturday</a>
-    <img class="object-cover w-full" src="2026-sch5.png" priority width="100" height="100" />
-    <a class="hyperlink" href="2026-sch5.png" download="2026-sch5.png">Download schedule for Sunday</a>
-    <img class="object-cover w-full" src="2026-sch6.png" priority width="100" height="100" />
-    <a class="hyperlink" href="2026-sch6.png" download="2026-sch6.png">Download schedule for Monday</a>
+        <div class="hyperlink" (click)="jumpToCatalog()">Jump to schedule catalog</div>
+        <img class="object-cover w-full" src="2026-sch1.png" priority width="100" height="100" />
+        <a class="hyperlink" href="2026-sch1.png" download="2026-sch1.png">Download schedule for Wednesday</a>
+        <img class="object-cover w-full" src="2026-sch2.png" priority width="100" height="100" />
+        <a class="hyperlink" href="2026-sch2.png" download="2026-sch2.png">Download schedule for Thursday</a>
+        <img class="object-cover w-full" src="2026-sch3.png" priority width="100" height="100" />
+        <a class="hyperlink" href="2026-sch3.png" download="2026-sch3.png">Download schedule for Friday</a>
+        <img class="object-cover w-full" src="2026-sch4.png" priority width="100" height="100" />
+        <a class="hyperlink" href="2026-sch4.png" download="2026-sch4.png">Download schedule for Saturday</a>
+        <img class="object-cover w-full" src="2026-sch5.png" priority width="100" height="100" />
+        <a class="hyperlink" href="2026-sch5.png" download="2026-sch5.png">Download schedule for Sunday</a>
+        <img class="object-cover w-full" src="2026-sch6.png" priority width="100" height="100" />
+        <a class="hyperlink" href="2026-sch6.png" download="2026-sch6.png">Download schedule for Monday</a>
 
-    <!-- <div class="text-xl text-grey-500 font-semibold">
-      Here are just some of the events officially hosted during ColossalCon Cruise
+
+        <div class="space-y-10 text-gray-800 dark:text-gray-200">
+            <div class="space-y-12 text-gray-700 dark:text-gray-600">
+
+                <!-- WEDNESDAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Wednesday</h2>
+                    <p class="text-sm text-gray-600 dark:text-gray-500">
+                        9004 Astronaut Blvd, Cape Canaveral, FL
+                    </p>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">Badge Pickup</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Weds, 8PM–10PM · Hotel Lobby – Hampton Inn
+                            </p>
+                            <p class="mt-2">
+                                Pickup for all your CCC information, badges, and swag. Just bring your ID or Passport!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">1st Time Cruiser Q&amp;A</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Weds, 9PM–10PM · Hotel Lobby – Hampton Inn
+                            </p>
+                            <p class="mt-2">
+                                First time on a cruise ship? Whether you have some last minute questions or want to learn some extra tips/tricks, join us and we will try our best to answer your pre-cruise questions!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- THURSDAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Thursday</h2>
+                    <p class="text-sm text-gray-600 dark:text-gray-500">Port Canaveral, FL</p>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">Hotel to Port Shuttle</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thurs, 10AM–10:30AM · Hotel Pool – Hampton Inn
+                            </p>
+                            <p class="mt-2">
+                                For those of you who booked at our official Host Hotel prior to the cruise, we include the shuttle from your hotel to the terminal for free!
+                                Please make sure you’ve signed up prior online (form is on our website) and meet us at the Hampton Inn Pool for departure on our Land-Ship!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Badge Pickup</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thurs, 1PM–3PM · Sky Bar – Deck 12
+                            </p>
+                            <p class="mt-2">
+                                Pickup for all your CCC information, badges, and swag. Bring your ID or Passport!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">
+                                GUESS THAT ANIME! Kahoot Tournament – Cruise Edition
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thurs, 2PM–3:30PM · Panel Room A – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Come test your knowledge of ALL the anime in this multi-round Kahoot tournament featuring opening, ending, and insert songs from all your favorite (and maybe some not-so-favorite) shows!
+                                Featuring everything from Famous Shonens to Obscure One-Season Wonders, your listening skills and watch history will be tested.
+                                Play alone or in a team and win free prizes from our signature Guessing Gacha just for participating!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Ram Panels</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Welcome Mixer</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thurs, 7:30PM–8:30PM · Star Lounge – Deck 5
+                            </p>
+                            <p class="mt-2">
+                                Ahoy SeaWeebs! Come and join us as we say hello and give you the rundown of all the features and events of Colossalcon Cruise. Also, meet some new buddies to tag along with on your adventures!
+                            </p>
+                            <p class="mt-1 text-sm italic">* Scavenger Hunt turn-in location</p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Cocktail Ninja’s Chunin Exam</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thurs, 9:30PM–10PM · Schooner Bar – Deck 4
+                            </p>
+                            <p class="mt-2">
+                                Are you already a Cocktail Ninja? Ready to Level Up? Bring your Headband to the Schooner Bar after the Welcome Mixer to get your upgrade! Are you an aspiring Cocktail Ninja?
+                                Join us for a chance to win an official Headband and start your cruise off as a new member!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Cocktail Ninjas</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Bonny’s Bunny After-Party</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thurs, 10PM–12AM · Schooner Bar – Deck 4
+                            </p>
+                            <p class="mt-2">
+                                Join us after the Welcome Mixer for Bonny’s Bunny Party! Dress as your favorite Bunny (or a generic Bunny), and smoking jackets are encouraged for everyone channeling their inner Hughie.
+                                Join us for a late-night drink and mix and mingle with fellow cruisers!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- FRIDAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Friday</h2>
+                    <p class="text-sm text-gray-600 dark:text-gray-500">CocoCay, Bahamas</p>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">Cosplay Judging – Beach Episode</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 10AM–11AM · SeaSide Point – CocoCay
+                            </p>
+                            <p class="mt-2">
+                                Calling all Craftsmanship Contestants! This is your one-on-one time with the judges to show off your handiwork and how you made your beach ready look a reality.
+                                Please arrive 10 minutes prior to begin lining up for judging. This evaluation is required for all contestants in the craftsmanship category.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Beach Episode Cosplay Contest</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 11AM–12PM · SeaSide Point – CocoCay
+                            </p>
+                            <p class="mt-2">
+                                That's right, this is not your normal Cosplay Contest, it's the Beach Episode! Grab your sunscreen and floaties as we take the stage directly on the sand.
+                                Whether you’re showing off a character's beach episode swimsuit or a custom-built swimsuit inspired by your favorite character, this is all about having fun in the sun!
+                            </p>
+                            <p class="mt-1 text-sm italic">Sponsored by Aria Wigs</p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Pirate Floaty Regatta - Racer Check in</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 2:40PM–3PM · South Beach Floating Bar – CocoCay
+                            </p>
+                            <p class="mt-2">
+                                Racers check in and inflate their floaty vessels for the voyage!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Pirate Floaty Regatta</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 3PM–4PM · South Beach Floating Bar – CocoCay
+                            </p>
+                            <p class="mt-2">
+                                Are you the most fearsome Pirate in the Caribbean?! Well, grab your inflatable unicorn and head down to South Beach 🏖️ on CocoCay Day to see how seaworthy you really are! A daring Fleet Race around the Floating Gazebo Bar and a chance to be named "The Colossalcon Cruise Corsair Commander of CocoCay". Remember, you are responsible for bringing your own floaty!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">After-Sun Chill Lounge</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 6:30PM–8PM · Star Lounge - Deck 5
+                            </p>
+                            <p class="mt-2">
+                                A bit sunburned? In your late 30’s and need a nap? Go a little too hard for the Floatie Regatta? Maybe you just need a break from the normies.
+                                Come join us in the Star Lounge for a private after sun Chill Session. We will have board games, some Aloe Vera and a private bartender to keep the party going.
+                                Come relax for a bit before our evening's main event!
+                            </p>
+                            <p class="mt-1 text-sm italic">* Scavenger Hunt turn-in location</p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Vaporwave 101: A Niche Music Genre of A E S T H E T I C S</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 6:30PM–7:30PM · Panel Room B – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Do you like niche music genres? Do you tend to spend too much time on the internet? Do you like learning? D o y o u l i k e s e n t e n c e s w r i t t e n o u t l i k e t h i s ?
+                                If any of these questions apply to you, then this panel is for you!
+                            </p>
+                            <p class="mt-2">
+
+                                Vaporwave 101: Niche Music Genre of A E S T H E T I C S will give you a crash course on the niche internet genre known as Vaporwave and its history, reasons for existence,
+                                and some samples of music from various Vaporwave subgenres.
+                                No matter if you are a newbie or a seasoned Vaporwave professional, come and learn about the music genre that is still making waves today (pun perhaps intended).
+</p>
+                            <p class="mt-1 text-sm italic">Hosted by Britt Seese</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Weeb Feud</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 8PM–10PM · Panel Room A – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Come put your nerd knowledge to the test in a weeb-themed game of family feud! Compete in teams answering trivia questions about anime, video games, and general pop culture!
+                                Family Feud for the nerds, by the nerds.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Hot.Glue.Cosplay</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Extra Beefy Weeb Soup</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 10PM–11PM · Solarium – Deck 11
+                            </p>
+                            <p class="mt-2">
+                                This year’s first soup theme will be EXTRA BEEFY. It's a combination Muscle meet up and hot tub party! So bust out those MOOsucles for an epic Pose Off!
+                                Don your favorite beefy themed swim gear or come in your normal suits and just add to the mussel stock of the weeb soup in the hot tubs. Cosplay is not required but hydration is.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Paul the Weaboomer</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Con Horror Stories</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Fri, 11PM–Midnight · Panel Room A – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                “One time at X-con”. Here’s the place to relive and share your past horror stories over your convention years.
+                                Tell us about the time the manhole covers in the host city started exploding into the air.
+                                Or about when you realized that a “Tied up” panel was not about time management a little too late. Let’s commiserate together.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Ashley Byard</p>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- SATURDAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Saturday</h2>
+                    <p class="text-sm text-gray-600 dark:text-gray-500">Nassau, Bahamas</p>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">Freescursion: Distillery Tour</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sat, 1PM–2:30PM · Prince George Wharf – Nassau
+                            </p>
+                            <p class="mt-2">
+                                Let’s go on an adventure! Come with us to visit one of Nassau’s most popular locations, The John Watling's Distillery as a CCC group.
+                                Along the way we will share the history of Nassau and fun facts about the area! Once at the distillery,
+                                they have free tours and for a small fee you can do a tasting or order a cocktail in their Tasting Room! This will be on foot and approximately a 30-45 minute walk.
+                                Please bring some water and some good shoes! ​​https://johnwatlings.com/
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Mermaids & Mimosas</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sat, 3PM–4PM · Solarium – Deck 11
+                            </p>
+                            <p class="mt-2">
+                                Want to be a pretty mermaid? Don your cutest swimsuit or mermaid gear and come relax poolside at the Solarium.
+                                We will have a couple of mermaid tails and crowns for you to slide on and snap a couple of pictures in to complete your mermaid look. Remember to BYO favorite drink to stay hydrated you little fishies.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Formal Dress Meet-up</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sat, 4:45PM–5:15PM · Observation Deck – Deck 5
+                            </p>
+                            <p class="mt-2">
+                                Make your grand entrance to formal dinner night! Dress to impress and float gracefully into dinner as we OOH and AHH at everyone's finest attire of the week! Be prepared to sachet, swish,
+                                and strut to show off your ballroom best! We will be meeting ahead of dinner to take a grand photo.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Ninja Pub Crawl</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sat, 8PM–10:30PM · Panel Room A – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Our most notorious event returns! The Ninja Pub Crawl. Follow along and Naruto run your way between all the bars on the ship. Start off in the conference rooms and you’ll get punches at each of the areas on the list.
+                                Save your card and at the last stop, you will receive a custom CCC headband and be eligible to participate in the raffle for all kinds of swag and cool prizes.
+                                Our non-alcohol drinkers are encouraged to participate and enjoy alongside our other ninjas and will still be eligible for prizes and punches!
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff and The Cocktail Ninjas</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Barkage Games</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sat, 10:30PM–12:30AM · Star Lounge – Deck 5
+                            </p>
+                            <p class="mt-2">
+                                Will you be our next BarKage?!
+                                Join us after the Bar Crawl for the 1st Annual BarKage Games! Anyone with 8 or more drink punches will be allowed to challenge a current Barkage to a pre-selected game for the honor of their Village!
+                                New BarKages are awarded bragging rights, a special prize and will defend their titles at the 2027 CCC! Who will take the titles this year?
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- SUNDAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Sunday</h2>
+                    <p class="text-sm text-gray-600 dark:text-gray-500">At Sea</p>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">D&D One-Shot</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 10AM–12PM · Panel Room A – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                One-shot session very loosely based on D&D - no experience necessary, pre-generated characters will be provided. Dice-rolling apps are recommended, but physical dice are also welcome.
+
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Knitwit</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">
+                                Saraiman Grumble Fest
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 10:30AM–11:30AM · Panel Room B – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Do you work for a living? Do you have to dress up to go to work? Most importantly, do you have something you want to get off your chest while sharing in a pity party? If so, this is for you. You don't even have to bring your own tie, as I will have plenty to give away.
+                                If we get enough of us, we will recreate the passed out group of Japanese workers meme somewhere on the ship. 😄
+
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Steven of Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Weeb Soup: Extra Spicy</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 11:30AM–12:30PM · Solarium – Deck 11
+                            </p>
+                            <p class="mt-2">
+                                Why do we keep referencing something called Weeb Soup?! Come and find out! The annual Hot Tub Party that started it all. Come and wear your favorite ramen or ramen-topping-themed swim gear or come in your normal suits and just add to the cream of weeb soup in the hot tubs. We will once again have a prize for the spiciest ingredient! Cosplay is not required, but hydration is.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Pokémon Spelling Bee</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 12PM–1PM · Panel Room B – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                But can you spell 'em all?
+                                Come put your Pokemon knowledge to the test in the Ultimate Pokemon Spelling Bee!
+                                This game can be played by all audience members. Come and be humbled by the most bizarre Pokemon names we could find!
+                                Gotta Spell 'em All!
+
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Hot.Glue.Cosplay</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Weeb Karaoke</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 1PM–3PM · Panel Room A – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Fulfill your idol dreams as we host a private karaoke. Here we will have a book of popular songs both classic and anime themed for you to pick from and sing your heart out among your fellow weebs! So whether you're feeling a Moonlight Densetsu, going ‘up up up, it’s our moment’, or even just ‘letting it go’ you can take the main stage and show us why you should be CCC’s next headliner!
+
+                            </p>
+                            <p class="mt-1 text-sm italic">* Scavenger Hunt turn-in location</p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Cosplay Contest Judging</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 1:30PM–3PM · Panel Room B – Deck 2
+                            </p>
+                            <p class="mt-2">
+                                Calling all Craftsmanship Contestants! Use this one-on-one opportunity with the judges to dive deep into your construction process. Whether you're a Novice with your first handmade pieces or a Master with a professional-grade costume, come ready to walk us through your materials and techniques used. Please arrive 10 minutes prior to begin lining up for judging. This technical evaluation is required for all craftsmanship category contestants!
+
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Tournament Arc Cosplay Contest</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 3:30PM–4:30PM · Star Lounge – Deck 5
+                            </p>
+                            <p class="mt-2">
+                                Welcome to the final showdown, the Tournament Arc! This is our traditional, full-scale costume showcase. Remember that swimwear is not permitted here. Watch as our Novice, Journeyman, and Master cosplayers battle it out in construction and stage presence. From intricate armor to elaborate gowns, witness the absolute best in technical skill and performance! All Cosplay Contest participants, please report to Deck 2 Panel Room A from 3:10PM-:3:25PM for the greenroom.
+                            </p>
+                                <p class="italic">Sponsored by Arda Wigs</p>
+
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Bon Voyage Kigu/PJ Party</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 7PM–9:30PM · Star Lounge – Deck 5
+                            </p>
+                            <p class="mt-2">
+                                So long and thanks for all the fish! Let’s say goodbye to our last night on the ship in style. This year we will be having a PJ party to avoid heat exhaustion from our normal Kigu romp or continue on in your Kigu ;) . So find your cutest fit, grab those fuzzy bunny slippers and let’s cheers to another amazing year!
+
+                            </p>
+                            <p class="mt-1 text-sm italic">* Scavenger Hunt turn-in location</p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Kigu Kuddle and Star Watching Party</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Sun, 9:30PM–Midnight · Observation Deck – Deck 5
+                            </p>
+                            <p class="mt-2">
+                                Switching gears this year, our Kigu party is moving outside! No more sweating through your cute onesie at the bar! Join us on the Observation Deck for our final evening aboard and watch the stars as we pull back into Port Canaveral.
+
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- MONDAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Monday</h2>
+                    <p class="text-sm text-gray-600 dark:text-gray-500">Port Canaveral, FL</p>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">Ship Departure</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Monday, 7:30AM–10AM · Ship-wide
+                            </p>
+                            <p class="mt-2">
+                                Starting with Self-Assist Early Departure at 7:30AM, Royal Caribbean will announce your departure group (it’s based off your room/luggage tags). Until then enjoy some breakfast and coffee until you're called and can reunite with your luggage on land.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Royal Caribbean</p>
+                        </article>
+
+                        <article>
+                            <p class="mt-1 text-sm italic">* Scavenger Hunt turn-in location</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thursday–Sunday
+                            </p>
+                            <p class="mt-2">
+                                Complete the checklist from your booklet and turn it in at select events for a prize.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- MULTI DAY -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-600">Multi-Day Events</h2>
+
+                    <div class="mt-6 space-y-8">
+                        <article>
+                            <h3 class="text-lg font-medium">Formal Dining</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Daily, 5:15PM–7:30PM · Sapphire Dining Room – Deck 4
+                            </p>
+                            <p class="mt-2">
+                                Open seating during designated dinner time. Look for Bonny Table cards.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <h3 class="text-lg font-medium">Door Decorating Contest</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thursday-Saturday 10AM, Online
+                            </p>
+                            <p class="mt-2">
+                                Join the time-honored tradition of cruises and decorate your door. Once you have it to perfection, submit a picture via Discord and/or the Facebook Group and the cruisers will vote on their favorite. Winners will be announced and prizes will be given out to the top 3 at the Bon Voyage Kigu/PJ Party.
+                            </p>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+
+                        <article>
+                            <p class="mt-1 text-sm italic">* Scavenger Hunt turn-in location</p>
+                            <p class="text-sm text-gray-600 dark:text-gray-500">
+                                Thursday–Sunday
+                            </p>
+                            <p class="mt-2">
+                                Explore the high seas and find everything on our list of treasure! The Scavenger Hunt list is located in your Check-in booklet. You may work alone or as a team. Once completed, you can turn it in and receive a prize. And don’t worry, this is not a race!
+                                Turn in at the Following Events:
+
+                            </p>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li>Thurs, Welcome Mixer</li>
+                                    <li>Fri, After-Sun Chill Lounge</li>
+                                    <li>Sun, Weeb Karaoke</li>
+                                    <li>Sun, Bon Voyage Kigu/PJ Party</li>
+                                </ul>
+                            <p class="mt-1 text-sm italic">Hosted by Colossalcon Cruise Staff</p>
+                        </article>
+                    </div>
+                </section>
+
+            </div>
+            ```
+
+            <!-- <div class="text-xl text-grey-500 font-semibold">
+                Here are just some of the events officially hosted during ColossalCon Cruise
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                Ninja Bar Crawl 🛳⚓️
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  Get your stealthiest Ninja outfits ready as we Naruto Run the night away! Past Cruisers, don't forget your Cocktail Ninja Headband! 🍸
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                Mermaids and Mimosas 🥂🧜‍♀️
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  What's better than being a mermaid? Being a mermaid with a fancy drink! Put together your most magical mermaid garb and sip and splash all morning!
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                The Beach Episode Cosplay Contest 🏖👙
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  That's right, this is not your normal Cosplay Contest, it's Beach and Swimwear themed! So get those floaties and sunscreen ready for our Cosplay day at CocoCay!
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                Formal Dinner Fashion Show
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  Ballgowns STRONGLY encouraged.
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                Spicy Weeb Soup 🍜🍲🍤
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  It is the hottest HotPot Hot-Tub Party around! Ramen and hotpot themed swimwear for the ultimate spicy broth!
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                Weeaboomer Support Group Ugly Hawaiian Shirt Contest
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  Got a Hawaiian shirt that will put Jimmy Buffet to shame? Today is your day!
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                Kigurumi Send Off Party
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                  Go find that perfect onesie and PJ party our final night aboard the ship!
+                </div>
+              </div>
+              <div class="text-2xl lg:text-3xl  font-medium">
+                <div class="text-xl font-gray-500 font-normal lg:indent-4">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="my-8 *:my-2" #catalog>
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Hotel Badge Pickup
+                </div>
+                <div class="italic">
+                  Wednesday, 8PM-10PM, Hotel Lobby- Hampton Inn, Cape Canaveral
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Early pickup for all your CCC information, badges, and swag. Just bring your ID!
+                </div>
+                <div class="italic">
+                  Hosted by ColossalCon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Badge Pickup
+                </div>
+                <div class="italic">
+                  Thursday, 1PM-4PM, Panel Room B- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Pickup for all your CCC information, badges, and swag. Just bring your ID
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Muscle Meetup
+                </div>
+                <div class="italic">
+                  Thursday, 4PM-5PM, Fitness Center- Deck 12
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Shout out to all the weebs who lift! Muscle mommies, gym nerds, and anyone looking for motivation to begin their fitness journey!  We are setting the cruise off right with another gym meetup, courtesy of King's Fitness, with challenges of strength, endurance, and epic levels of posing. Gym cosplays are encouraged but not required.
+                </div>
+                <div class="italic">
+                  Hosted by Cocktail Ninjas
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Welcome Mixer
+                </div>
+                <div class="italic">
+                  Thursday, 8PM-9PM, Viking Lounge- Deck 14
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Ahoy SeaWeebs! Come and join us as we say hello and give you the rundown of all the features and events of Colossalcon Cruise. Also, meet some new buddies to tagalong with on your adventures!
+
+                  Also, Sign-ups for the Beach Cosplay Contest (you do not have to be in your costume to sign up, don’t panic!) and a turn-in opportunity for the Official CCC Scavenger hunt will be here.
+
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Staff Behind the Scenes Horror Stories
+
+                </div>
+                <div class="italic">
+                  Thursday, 9PM-1PM, Panel Room A- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  We have been staffing conventions in various capacities for the last 7+ years. Hear about some of the unsavory aspects of working cons that may or may not be embellished.
+                </div>
+                <div class="italic">
+                  Hosted by Steven and Chee Walton
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Anime Viewing- Midnight Run
+                </div>
+                <div class="italic">
+                  Thursday, 9PM-11PM, Panel Room B- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Never forget Toonami TOM. We’re bringing back some of your favorites from Midnight Run. While we may not have a cool-robot host, we do have anime that will bring you back to the 90s
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Anime Viewing- 18+ (Mature)
+                </div>
+                <div class="italic">
+                  Thursday, 11PM-12AM, Panel Room B- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Time for Adult Swim. All kids are out of the water as we dive into some older and more mature anime.
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Beach Cosplay Contest
+                </div>
+                <div class="italic">
+                  Friday, 11AM-12PM, Seaside Point- CocoCay
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Join us for the Colossalcon Cruise Beach Episode Cosplay contests! Here you can show off your beach vibes for all your favorite characters. Our judges will determine winners and there will be plenty of amazing prizes. While traditional cosplays are welcome to join, judging criteria may favor beach and swim-style costumes.
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Flex on the Beach
+                </div>
+                <div class="italic">
+                  Friday, 12PM-1PM, Seaside Point- CocoCay
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Buns, Guns, and Fun in the Sun! Don't change out of your Beach Cosplay just yet cause it's time to get your Flex on! More gratuitous and ludacris feats of strength and epic JoJo-level posing!
+                </div>
+                <div class="italic">
+                  Hosted by Cocktail Ninjas
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Cocktail Ninja Bingo
+                </div>
+                <div class="italic">
+                  Friday, 1PM-2PM, Seaside Point- CocoCay
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Calling all Cocktail Ninjas! We are at it again playing some games on the beach to award more of our limited edition Cocktail Ninja headbands! Already have one from a previous year? Make sure you bring it so we can upgrade your Ninja Rank. Have you been wondering how to get one? Well, this is your chance!
+
+                  This will also be a turn-in opportunity for the Official CCC Scavenger hunt.
+
+                </div>
+                <div class="italic">
+                  Hosted by Cocktail Ninjas
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  WeeaBoomer Support Group
+                </div>
+                <div class="italic">
+                  Friday, 3PM-4PM, Seaside Point- CocoCay
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Kids today have it SO easy am I right? Can you remember staying up to watch Gundam Wing uncut at midnight? Or how about convincing a parent to rent you Ninja Scroll from Blockbuster? What about downloading a bootleg fan sub of Trigun on Napster? Perhaps you were born in the 1900's?  ....Well then you probably deserve a nap in the middle of the day. So let's have an aspirin, rest our knees, don our best ugly button-up shirts, and talk about the good old days. Preferably while sleeping in the hammocks.
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Ninja Pub Crawl
+                </div>
+                <div class="italic">
+                  Friday, 7PM-11PM, Viking Lounge- Deck 14
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Our most notorious event is the Ninja Pub Crawl. Follow along and Naruto run your way between all the bars on the ship. Start off in the lounge and you’ll get punches at each of the areas on the list. Save your card and at the last stop, you will receive a custom CCC headband and be eligible to participate in the raffle for all kinds of swag and cool prizes. Our non-alcohol drinkers are encouraged to participate and enjoy alongside our other ninjas and will still be eligible for prizes!
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Retro Tabletop
+                </div>
+                <div class="italic">
+                  Friday, 9PM-12AM, Panel Room B- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Want a place to chill and play some games? We got you! Either BYO or check out our mini-collection of classic retro games like Sorry, Chutes and Ladders, and more!
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Mermaids & Mimosas
+                </div>
+                <div class="italic">
+                  Saturday, 10AM-11AM, Solarium Pool- Deck 11
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Want to be a pretty mermaid? Don your cutest swimsuit or mermaid gear and come relax poolside at the Solarium. We will have a couple of mermaid tails and crowns for you to slide on and snap a couple of pictures in to complete your mermaid look. Remember to BYO favorite drink to stay hydrated you little fishies
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Door Decor Contests
+                </div>
+                <div class="italic">
+                  Saturday, 10AM, Virtual Via Discord
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Join the time-honored tradition of cruises and decorate your door. Once you have it to perfection, submit a picture via Discord and/or the Facebook Group and the cruisers will vote on their favorite. Winners will be announced and prizes will be given out to the top 3 at the Kigu Bon Voyage Party.
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Photoshoots from A-Z
+                </div>
+                <div class="italic">
+                  Saturday, 11AM-12PM, Panel Room A- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Ever wondered how to find the perfect photographer? Or once you’re there how to pose? Wondered when do I get my pictures back? Etc. For photographers have you ever wondered how to offer bookings? How to advertise?  Let us help you by going through the whole process from booking shoots, posing, photo sharing etiquette, and more!
+                </div>
+                <div class="italic">
+                  Hosted by ElizawitchCosplay and Karamel Photography
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Not Your Highschool Gym Class
+                </div>
+                <div class="italic">
+                  Saturday, 11AM-12PM, Panel Room A- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  For anyone contemplating starting or improving a fitness program, King's Fitness is offering an introduction to basic bodyweight exercises focusing on balance and mobility. Beginning a program can be overwhelming but the fitness movement within the anime/nerd community is incredibly welcoming and encouraging.  We will be sharing support, nutrition tips, and some introductory exercises.  All are welcome regardless of experience or ability.
+                </div>
+                <div class="italic">
+                  Hosted by Cocktail Ninjas
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Spicy Weeb Soup
+                </div>
+                <div class="italic">
+                  Saturday, 12PM-1PM, Hot Tubs- Deck 11
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Come and don your favorite ramen or ramen-topping-themed swim gear or come in your normal suits and just add to the cream of weeb soup in the hot tubs. Cosplay is not required but hydration is.
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  D&D Oneshot
+                </div>
+                <div class="italic">
+                  Saturday, 1PM-4PM, Panel Room A- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Loosely based on D&D 5e, pre-generated characters will be provided, dice are welcome but not necessary.
+                </div>
+                <div class="italic">
+                  Hosted by Kat
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Karaoke
+                </div>
+                <div class="italic">
+                  Saturday, 2PM-4PM, Panel Room B- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Fulfill your idol dreams as we host a private karaoke. Here we will have a book of popular songs for you to pick from and sing your heart out among your fellow weebs!
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Formal Attire Photoshoot
+                </div>
+                <div class="italic">
+                  Saturday, 5PM-5:30PM, Outside Main Dining- Deck 3
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Make your grand entrance to formal dinner night! Dress to impress and float gracefully into dinner as we OOH and AHH at everyone's finest attire of the week! Be prepared to sachet, swish, and strut to show off your ballroom best!
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Weeb Feud
+                </div>
+                <div class="italic">
+                  Saturday, 8PM-10PM, Panel Room A- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Come put your nerd knowledge to the test in a weeb-themed game of family feud! Compete in teams answering trivia questions about anime, video games, and general pop culture!
+                </div>
+                <div class="italic">
+                  Hosted by Stevie
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Cocktail Ninja Cocktail Party
+                </div>
+                <div class="italic">
+                  Saturday, 10PM-11PM, Schooner Bar- Deck 4
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Come to Village Hidden in the Bar as we determine who will be the next to win their Headbands in our Chunin exams! Already an official Cocktail Ninja? Bring your headband and join us for the fun!
+
+                  This will also be a turn-in opportunity for the Official CCC Scavenger hunt.
+                </div>
+                <div class="italic">
+                  Hosted by Cocktail Ninjas
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Anime Viewing- Saturday Specials
+                </div>
+                <div class="italic">
+                  Saturday, 9PM-12AM, Panel Room B- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Relive our Saturday Morning specials and our other weekend anime! Stop in, get comfy, and chill!
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Freescursion- Fisherman’s Village
+                </div>
+                <div class="italic">
+                  Sunday, 10AM-11AM, Cruise Port Dock- Bimini
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Let’s go on an adventure! Join us as we head to Fisherman’s Village as a CCC group. Here is some of the island’s finest shopping and some Bahamian cuisine/bars This will be on foot and approximately a 10-minute walk. Please bring some water and some good shoes!
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  WeeaBoomer Nap Meetup
+                </div>
+                <div class="italic">
+                  Sunday, 4PM-5PM, Solarium-Deck 11
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Kids today have it SO easy am I right? Can you remember staying up to watch Gundam Wing uncut at midnight? Or how about convincing a parent to rent you Ninja Scroll from Blockbuster? What about downloading a bootleg fan sub of Trigun on Napster? Perhaps you were born in the 1900's?  ....Well then you probably deserve a nap in the middle of the day. So let's have an aspirin, rest our knees, and talk about the good old days.
+
+                  Wait… We’ve already done this intro? Oh well, nap time again! This time bring your pajamas OR an ugly button-up shirt!
+
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Kigu Bon Voyage Party
+                </div>
+                <div class="italic">
+                  Sunday, 8PM-9PM, Viking Lounge- Deck 14
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  So long and thanks for all the fish! Let’s say goodbye to our last night on the ship in style. Kigu-style that is. Kigu’s not required but good vibes are!
+
+                  This will also be the last turn-in opportunity for the Official CCC Scavenger hunt.
+
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Con Horror Stories
+                </div>
+                <div class="italic">
+                  Sunday, 9PM-10PM, Sky Bar- Deck 12
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  “One time at X-con”. Here’s the place to relive and share your past horror stories over your convention years. Tell us about the time that you had to drag a drunk guy in a wagon back to his room. Or about when you realized that a “Tied up” panel was not about time management a little too late. Let’s commiserate together.
+                </div>
+                <div class="italic">
+                  Hosted by Wayne and Ashley Byard
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Anime Viewing- MST3000 Style (Mature)
+                </div>
+                <div class="italic">
+                  Sunday, 10PM-12AM, Panel Room A- Deck 2
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Join us while we watch the good(?), the bad, and the ugly of the anime world (yes, the Ghost Stories Dub will be there!) and listen to our staff comment on it, MST3000-style. IYKYK
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xl lg:text-2xl  font-medium">
+                  Scavenger Hunt
+                </div>
+                <div class="text font-gray-500 font-normal pb-4">
+                  Explore the boat and the con by participating in the official CCC Scavenger hunt! Information is located in your welcome bag and you can turn in your hunt and photos at the following events:
+
+                  <ul class="list-disc list-inside">
+                    <li>Welcome Mixer</li>
+                    <li>Cocktail Ninja Bingo</li>
+                    <li>Cocktail Ninja Cocktail Party</li>
+                    <li>Kigu Bon Voyage Party</li>
+                  </ul>
+                </div>
+                <div class="italic">
+                  Hosted by Colossalcon Cruise Staff
+                </div>
+              </div> -->
+
+        </div>
     </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      Ninja Bar Crawl 🛳⚓️
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        Get your stealthiest Ninja outfits ready as we Naruto Run the night away! Past Cruisers, don't forget your Cocktail Ninja Headband! 🍸
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      Mermaids and Mimosas 🥂🧜‍♀️
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        What's better than being a mermaid? Being a mermaid with a fancy drink! Put together your most magical mermaid garb and sip and splash all morning!
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      The Beach Episode Cosplay Contest 🏖👙
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        That's right, this is not your normal Cosplay Contest, it's Beach and Swimwear themed! So get those floaties and sunscreen ready for our Cosplay day at CocoCay!
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      Formal Dinner Fashion Show
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        Ballgowns STRONGLY encouraged.
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      Spicy Weeb Soup 🍜🍲🍤
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        It is the hottest HotPot Hot-Tub Party around! Ramen and hotpot themed swimwear for the ultimate spicy broth!
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      Weeaboomer Support Group Ugly Hawaiian Shirt Contest
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        Got a Hawaiian shirt that will put Jimmy Buffet to shame? Today is your day!
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      Kigurumi Send Off Party
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-        Go find that perfect onesie and PJ party our final night aboard the ship!
-      </div>
-    </div>
-    <div class="text-2xl lg:text-3xl  font-medium">
-      <div class="text-xl font-gray-500 font-normal lg:indent-4">
-      </div>
-    </div>
-
-  </div>
-
-  <div class="my-8 *:my-2" #catalog>
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Hotel Badge Pickup
-      </div>
-      <div class="italic">
-        Wednesday, 8PM-10PM, Hotel Lobby- Hampton Inn, Cape Canaveral
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Early pickup for all your CCC information, badges, and swag. Just bring your ID!
-      </div>
-      <div class="italic">
-        Hosted by ColossalCon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Badge Pickup
-      </div>
-      <div class="italic">
-        Thursday, 1PM-4PM, Panel Room B- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Pickup for all your CCC information, badges, and swag. Just bring your ID
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Muscle Meetup
-      </div>
-      <div class="italic">
-        Thursday, 4PM-5PM, Fitness Center- Deck 12
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Shout out to all the weebs who lift! Muscle mommies, gym nerds, and anyone looking for motivation to begin their fitness journey!  We are setting the cruise off right with another gym meetup, courtesy of King's Fitness, with challenges of strength, endurance, and epic levels of posing. Gym cosplays are encouraged but not required.
-      </div>
-      <div class="italic">
-        Hosted by Cocktail Ninjas
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Welcome Mixer
-      </div>
-      <div class="italic">
-        Thursday, 8PM-9PM, Viking Lounge- Deck 14
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Ahoy SeaWeebs! Come and join us as we say hello and give you the rundown of all the features and events of Colossalcon Cruise. Also, meet some new buddies to tagalong with on your adventures!
-
-        Also, Sign-ups for the Beach Cosplay Contest (you do not have to be in your costume to sign up, don’t panic!) and a turn-in opportunity for the Official CCC Scavenger hunt will be here.
-
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Staff Behind the Scenes Horror Stories
-
-      </div>
-      <div class="italic">
-        Thursday, 9PM-1PM, Panel Room A- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        We have been staffing conventions in various capacities for the last 7+ years. Hear about some of the unsavory aspects of working cons that may or may not be embellished.
-      </div>
-      <div class="italic">
-        Hosted by Steven and Chee Walton
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Anime Viewing- Midnight Run
-      </div>
-      <div class="italic">
-        Thursday, 9PM-11PM, Panel Room B- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Never forget Toonami TOM. We’re bringing back some of your favorites from Midnight Run. While we may not have a cool-robot host, we do have anime that will bring you back to the 90s
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Anime Viewing- 18+ (Mature)
-      </div>
-      <div class="italic">
-        Thursday, 11PM-12AM, Panel Room B- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Time for Adult Swim. All kids are out of the water as we dive into some older and more mature anime.
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Beach Cosplay Contest
-      </div>
-      <div class="italic">
-        Friday, 11AM-12PM, Seaside Point- CocoCay
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Join us for the Colossalcon Cruise Beach Episode Cosplay contests! Here you can show off your beach vibes for all your favorite characters. Our judges will determine winners and there will be plenty of amazing prizes. While traditional cosplays are welcome to join, judging criteria may favor beach and swim-style costumes.
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Flex on the Beach
-      </div>
-      <div class="italic">
-        Friday, 12PM-1PM, Seaside Point- CocoCay
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Buns, Guns, and Fun in the Sun! Don't change out of your Beach Cosplay just yet cause it's time to get your Flex on! More gratuitous and ludacris feats of strength and epic JoJo-level posing!
-      </div>
-      <div class="italic">
-        Hosted by Cocktail Ninjas
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Cocktail Ninja Bingo
-      </div>
-      <div class="italic">
-        Friday, 1PM-2PM, Seaside Point- CocoCay
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Calling all Cocktail Ninjas! We are at it again playing some games on the beach to award more of our limited edition Cocktail Ninja headbands! Already have one from a previous year? Make sure you bring it so we can upgrade your Ninja Rank. Have you been wondering how to get one? Well, this is your chance!
-
-        This will also be a turn-in opportunity for the Official CCC Scavenger hunt.
-
-      </div>
-      <div class="italic">
-        Hosted by Cocktail Ninjas
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        WeeaBoomer Support Group
-      </div>
-      <div class="italic">
-        Friday, 3PM-4PM, Seaside Point- CocoCay
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Kids today have it SO easy am I right? Can you remember staying up to watch Gundam Wing uncut at midnight? Or how about convincing a parent to rent you Ninja Scroll from Blockbuster? What about downloading a bootleg fan sub of Trigun on Napster? Perhaps you were born in the 1900's?  ....Well then you probably deserve a nap in the middle of the day. So let's have an aspirin, rest our knees, don our best ugly button-up shirts, and talk about the good old days. Preferably while sleeping in the hammocks.
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Ninja Pub Crawl
-      </div>
-      <div class="italic">
-        Friday, 7PM-11PM, Viking Lounge- Deck 14
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Our most notorious event is the Ninja Pub Crawl. Follow along and Naruto run your way between all the bars on the ship. Start off in the lounge and you’ll get punches at each of the areas on the list. Save your card and at the last stop, you will receive a custom CCC headband and be eligible to participate in the raffle for all kinds of swag and cool prizes. Our non-alcohol drinkers are encouraged to participate and enjoy alongside our other ninjas and will still be eligible for prizes!
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Retro Tabletop
-      </div>
-      <div class="italic">
-        Friday, 9PM-12AM, Panel Room B- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Want a place to chill and play some games? We got you! Either BYO or check out our mini-collection of classic retro games like Sorry, Chutes and Ladders, and more!
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Mermaids & Mimosas
-      </div>
-      <div class="italic">
-        Saturday, 10AM-11AM, Solarium Pool- Deck 11
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Want to be a pretty mermaid? Don your cutest swimsuit or mermaid gear and come relax poolside at the Solarium. We will have a couple of mermaid tails and crowns for you to slide on and snap a couple of pictures in to complete your mermaid look. Remember to BYO favorite drink to stay hydrated you little fishies
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Door Decor Contests
-      </div>
-      <div class="italic">
-        Saturday, 10AM, Virtual Via Discord
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Join the time-honored tradition of cruises and decorate your door. Once you have it to perfection, submit a picture via Discord and/or the Facebook Group and the cruisers will vote on their favorite. Winners will be announced and prizes will be given out to the top 3 at the Kigu Bon Voyage Party.
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Photoshoots from A-Z
-      </div>
-      <div class="italic">
-        Saturday, 11AM-12PM, Panel Room A- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Ever wondered how to find the perfect photographer? Or once you’re there how to pose? Wondered when do I get my pictures back? Etc. For photographers have you ever wondered how to offer bookings? How to advertise?  Let us help you by going through the whole process from booking shoots, posing, photo sharing etiquette, and more!
-      </div>
-      <div class="italic">
-        Hosted by ElizawitchCosplay and Karamel Photography
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Not Your Highschool Gym Class
-      </div>
-      <div class="italic">
-        Saturday, 11AM-12PM, Panel Room A- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        For anyone contemplating starting or improving a fitness program, King's Fitness is offering an introduction to basic bodyweight exercises focusing on balance and mobility. Beginning a program can be overwhelming but the fitness movement within the anime/nerd community is incredibly welcoming and encouraging.  We will be sharing support, nutrition tips, and some introductory exercises.  All are welcome regardless of experience or ability.
-      </div>
-      <div class="italic">
-        Hosted by Cocktail Ninjas
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Spicy Weeb Soup
-      </div>
-      <div class="italic">
-        Saturday, 12PM-1PM, Hot Tubs- Deck 11
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Come and don your favorite ramen or ramen-topping-themed swim gear or come in your normal suits and just add to the cream of weeb soup in the hot tubs. Cosplay is not required but hydration is.
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        D&D Oneshot
-      </div>
-      <div class="italic">
-        Saturday, 1PM-4PM, Panel Room A- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Loosely based on D&D 5e, pre-generated characters will be provided, dice are welcome but not necessary.
-      </div>
-      <div class="italic">
-        Hosted by Kat
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Karaoke
-      </div>
-      <div class="italic">
-        Saturday, 2PM-4PM, Panel Room B- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Fulfill your idol dreams as we host a private karaoke. Here we will have a book of popular songs for you to pick from and sing your heart out among your fellow weebs!
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Formal Attire Photoshoot
-      </div>
-      <div class="italic">
-        Saturday, 5PM-5:30PM, Outside Main Dining- Deck 3
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Make your grand entrance to formal dinner night! Dress to impress and float gracefully into dinner as we OOH and AHH at everyone's finest attire of the week! Be prepared to sachet, swish, and strut to show off your ballroom best!
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Weeb Feud
-      </div>
-      <div class="italic">
-        Saturday, 8PM-10PM, Panel Room A- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Come put your nerd knowledge to the test in a weeb-themed game of family feud! Compete in teams answering trivia questions about anime, video games, and general pop culture!
-      </div>
-      <div class="italic">
-        Hosted by Stevie
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Cocktail Ninja Cocktail Party
-      </div>
-      <div class="italic">
-        Saturday, 10PM-11PM, Schooner Bar- Deck 4
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Come to Village Hidden in the Bar as we determine who will be the next to win their Headbands in our Chunin exams! Already an official Cocktail Ninja? Bring your headband and join us for the fun!
-
-        This will also be a turn-in opportunity for the Official CCC Scavenger hunt.
-      </div>
-      <div class="italic">
-        Hosted by Cocktail Ninjas
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Anime Viewing- Saturday Specials
-      </div>
-      <div class="italic">
-        Saturday, 9PM-12AM, Panel Room B- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Relive our Saturday Morning specials and our other weekend anime! Stop in, get comfy, and chill!
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Freescursion- Fisherman’s Village
-      </div>
-      <div class="italic">
-        Sunday, 10AM-11AM, Cruise Port Dock- Bimini
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Let’s go on an adventure! Join us as we head to Fisherman’s Village as a CCC group. Here is some of the island’s finest shopping and some Bahamian cuisine/bars This will be on foot and approximately a 10-minute walk. Please bring some water and some good shoes!
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        WeeaBoomer Nap Meetup
-      </div>
-      <div class="italic">
-        Sunday, 4PM-5PM, Solarium-Deck 11
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Kids today have it SO easy am I right? Can you remember staying up to watch Gundam Wing uncut at midnight? Or how about convincing a parent to rent you Ninja Scroll from Blockbuster? What about downloading a bootleg fan sub of Trigun on Napster? Perhaps you were born in the 1900's?  ....Well then you probably deserve a nap in the middle of the day. So let's have an aspirin, rest our knees, and talk about the good old days.
-
-        Wait… We’ve already done this intro? Oh well, nap time again! This time bring your pajamas OR an ugly button-up shirt!
-
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Kigu Bon Voyage Party
-      </div>
-      <div class="italic">
-        Sunday, 8PM-9PM, Viking Lounge- Deck 14
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        So long and thanks for all the fish! Let’s say goodbye to our last night on the ship in style. Kigu-style that is. Kigu’s not required but good vibes are!
-
-        This will also be the last turn-in opportunity for the Official CCC Scavenger hunt.
-
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Con Horror Stories
-      </div>
-      <div class="italic">
-        Sunday, 9PM-10PM, Sky Bar- Deck 12
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        “One time at X-con”. Here’s the place to relive and share your past horror stories over your convention years. Tell us about the time that you had to drag a drunk guy in a wagon back to his room. Or about when you realized that a “Tied up” panel was not about time management a little too late. Let’s commiserate together.
-      </div>
-      <div class="italic">
-        Hosted by Wayne and Ashley Byard
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Anime Viewing- MST3000 Style (Mature)
-      </div>
-      <div class="italic">
-        Sunday, 10PM-12AM, Panel Room A- Deck 2
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Join us while we watch the good(?), the bad, and the ugly of the anime world (yes, the Ghost Stories Dub will be there!) and listen to our staff comment on it, MST3000-style. IYKYK
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div>
-
-    <div>
-      <div class="text-xl lg:text-2xl  font-medium">
-        Scavenger Hunt
-      </div>
-      <div class="text font-gray-500 font-normal pb-4">
-        Explore the boat and the con by participating in the official CCC Scavenger hunt! Information is located in your welcome bag and you can turn in your hunt and photos at the following events:
-
-        <ul class="list-disc list-inside">
-          <li>Welcome Mixer</li>
-          <li>Cocktail Ninja Bingo</li>
-          <li>Cocktail Ninja Cocktail Party</li>
-          <li>Kigu Bon Voyage Party</li>
-        </ul>
-      </div>
-      <div class="italic">
-        Hosted by Colossalcon Cruise Staff
-      </div>
-    </div> -->
-
-  </div>
 </article>
