@@ -34,8 +34,12 @@ import { Cruise2026Component } from './booking/cruise/2026/cruise.component';
 import { Cruise2027Component } from './booking/cruise/2027/cruise.component';
 import { Hotel2026Component } from './booking/hotel/2026/hotel2026.component';
 import { Hotel2027Component } from './booking/hotel/2027/hotel2027/hotel2027.component';
-import { CosplayContestComponent } from './cosplay-contest/cosplay-contest.component';
 import { CosplayContestOverviewComponent } from './cosplay-contest/overview/overview.component';
+import { JudgeGuidelinesComponent } from './cosplay-contest/judge-guidelines/judge-guidelines.component';
+import { RulesBeachRunwayComponent } from './cosplay-contest/judge-guidelines/rules-beach-runway/rules-beach-runway.component';
+import { RulesBeachCraftComponent } from './cosplay-contest/judge-guidelines/rules-beach-craft/rules-beach-craft.component';
+import { RulesTourneyRunwayComponent } from './cosplay-contest/judge-guidelines/rules-tourney-runway/rules-tourney-runway.component';
+import { RulesTourneyCraftComponent } from './cosplay-contest/judge-guidelines/rules-tourney-craft/rules-tourney-craft.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -82,6 +86,14 @@ export const routes: Routes = [
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'cosplay-contest/overview', component: CosplayContestOverviewComponent},
+  { path: 'cosplay-contest/judgement', component: JudgeGuidelinesComponent,
+    children: [
+      {path: 'beach-runway', component: RulesBeachRunwayComponent},
+      {path: 'beach-crafts', component: RulesBeachCraftComponent},
+      {path: 'tourney-runway', component: RulesTourneyRunwayComponent},
+      {path: 'tourney-crafts', component: RulesTourneyCraftComponent},
+    ]
+  },
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
   { path: '**', redirectTo: 'landing-page' },
 ];

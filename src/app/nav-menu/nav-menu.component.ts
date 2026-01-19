@@ -92,6 +92,12 @@ export class NavMenuComponent {
           command: () => {
             this.router.navigate(['/cosplay-contest/overview'])
           }
+        },
+        {
+          label: "Judging Guidelines",
+          command: () => {
+            this.router.navigate(['/cosplay-contest/judgement'])
+          }
         }
       ]
     },

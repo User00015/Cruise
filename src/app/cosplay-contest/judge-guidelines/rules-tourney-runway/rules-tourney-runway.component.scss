@@ -1,0 +1,8 @@
+
+.divide-grid {
+& > :not(:last-child) {
+  border-inline-start-width: 0px;
+  border-inline-end-width: 1px;
+}
+
+}
