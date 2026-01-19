@@ -85,13 +85,15 @@ export const routes: Routes = [
   { path: 'general-rules', component: TermsGeneralComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'gallery', component: GalleryComponent },
-  { path: 'cosplay-contest/overview', component: CosplayContestOverviewComponent},
-  { path: 'cosplay-contest/judgement', component: JudgeGuidelinesComponent,
+  { path: 'cosplay-contest/overview', component: CosplayContestOverviewComponent },
+  {
+    path: 'cosplay-contest/judgement', component: JudgeGuidelinesComponent,
     children: [
-      {path: 'beach-runway', component: RulesBeachRunwayComponent},
-      {path: 'beach-crafts', component: RulesBeachCraftComponent},
-      {path: 'tourney-runway', component: RulesTourneyRunwayComponent},
-      {path: 'tourney-crafts', component: RulesTourneyCraftComponent},
+      { path: '', redirectTo: 'beach-runway', pathMatch: 'full' },
+      { path: 'beach-runway', component: RulesBeachRunwayComponent },
+      { path: 'beach-crafts', component: RulesBeachCraftComponent },
+      { path: 'tourney-runway', component: RulesTourneyRunwayComponent },
+      { path: 'tourney-crafts', component: RulesTourneyCraftComponent },
     ]
   },
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
