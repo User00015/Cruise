@@ -103,6 +103,12 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="aspnetcore-https.js" />
+    <Content Include="public\2026-sch1.png" />
+    <Content Include="public\2026-sch2.png" />
+    <Content Include="public\2026-sch5.png" />
+    <Content Include="public\2026-sch6.png" />
+    <Content Include="public\2026-sch3.png" />
+    <Content Include="public\2026-sch4.png" />
     <Content Include="public\balcony.jpg" />
     <Content Include="public\Book-your-room-now-Web-button-1.png" />
     <Content Include="public\Buy-your-pre-admission-Web-button.png" />
