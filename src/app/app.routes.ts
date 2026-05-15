@@ -40,6 +40,7 @@ import { RulesBeachRunwayComponent } from './cosplay-contest/judge-guidelines/ru
 import { RulesBeachCraftComponent } from './cosplay-contest/judge-guidelines/rules-beach-craft/rules-beach-craft.component';
 import { RulesTourneyRunwayComponent } from './cosplay-contest/judge-guidelines/rules-tourney-runway/rules-tourney-runway.component';
 import { RulesTourneyCraftComponent } from './cosplay-contest/judge-guidelines/rules-tourney-craft/rules-tourney-craft.component';
+import { KeyWestComponent } from './info-and-tips/key-west/key-west.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
@@ -78,6 +79,7 @@ export const routes: Routes = [
   { path: 'info-and-tips/bimini', component: BaminiComponent },
   { path: 'info-and-tips/nassau', component: NassauComponent },
   { path: 'info-and-tips/port-canaveral', component: PortCanaveralComponent },
+  { path: 'info-and-tips/key-west', component: KeyWestComponent },
   { path: 'info-and-tips/faq', component: FaqComponent },
   { path: 'info-and-tips/maps', component: LocationMapsComponent },
   { path: 'community', component: CommunityComponent },

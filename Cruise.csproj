@@ -63,6 +63,11 @@
     <None Include="src\app\community\community\community.component.scss" />
     <None Include="src\app\contacts\contact-us\contact-us.component.scss" />
     <None Include="src\app\cosplay-contest\cosplay-contest.component.scss" />
+    <None Include="src\app\cosplay-contest\judge-guidelines\judge-guidelines.component.scss" />
+    <None Include="src\app\cosplay-contest\judge-guidelines\rules-beach-craft\rules-beach-craft.component.scss" />
+    <None Include="src\app\cosplay-contest\judge-guidelines\rules-beach-runway\rules-beach-runway.component.scss" />
+    <None Include="src\app\cosplay-contest\judge-guidelines\rules-tourney-craft\rules-tourney-craft.component.scss" />
+    <None Include="src\app\cosplay-contest\judge-guidelines\rules-tourney-runway\rules-tourney-runway.component.scss" />
     <None Include="src\app\cosplay-contest\overview\overview.component.scss" />
     <None Include="src\app\events\host-an-event\host-an-event.component.scss" />
     <None Include="src\app\events\schedule\schedule.component.scss" />
@@ -73,6 +78,7 @@
     <None Include="src\app\info-and-tips\cococay\cococay.component.scss" />
     <None Include="src\app\info-and-tips\cosplay-guidelines\cosplay-guidelines.component.scss" />
     <None Include="src\app\info-and-tips\faq\faq.component.scss" />
+    <None Include="src\app\info-and-tips\key-west\key-west.component.scss" />
     <None Include="src\app\info-and-tips\location-maps\location-maps.component.scss" />
     <None Include="src\app\info-and-tips\nassau\nassau.component.scss" />
     <None Include="src\app\info-and-tips\port-canaveral\port-canaveral.component.scss" />
@@ -467,6 +473,11 @@
     <Content Include="src\app\community\community\community.component.html" />
     <Content Include="src\app\contacts\contact-us\contact-us.component.html" />
     <Content Include="src\app\cosplay-contest\cosplay-contest.component.html" />
+    <Content Include="src\app\cosplay-contest\judge-guidelines\judge-guidelines.component.html" />
+    <Content Include="src\app\cosplay-contest\judge-guidelines\rules-beach-craft\rules-beach-craft.component.html" />
+    <Content Include="src\app\cosplay-contest\judge-guidelines\rules-beach-runway\rules-beach-runway.component.html" />
+    <Content Include="src\app\cosplay-contest\judge-guidelines\rules-tourney-craft\rules-tourney-craft.component.html" />
+    <Content Include="src\app\cosplay-contest\judge-guidelines\rules-tourney-runway\rules-tourney-runway.component.html" />
     <Content Include="src\app\cosplay-contest\overview\overview.component.html" />
     <Content Include="src\app\events\host-an-event\host-an-event.component.html" />
     <Content Include="src\app\events\schedule\schedule.component.html" />
@@ -477,6 +488,7 @@
     <Content Include="src\app\info-and-tips\cococay\cococay.component.html" />
     <Content Include="src\app\info-and-tips\cosplay-guidelines\cosplay-guidelines.component.html" />
     <Content Include="src\app\info-and-tips\faq\faq.component.html" />
+    <Content Include="src\app\info-and-tips\key-west\key-west.component.html" />
     <Content Include="src\app\info-and-tips\location-maps\location-maps.component.html" />
     <Content Include="src\app\info-and-tips\nassau\nassau.component.html" />
     <Content Include="src\app\info-and-tips\port-canaveral\port-canaveral.component.html" />
@@ -515,6 +527,11 @@
     <TypeScriptCompile Include="src\app\community\community\community.component.ts" />
     <TypeScriptCompile Include="src\app\contacts\contact-us\contact-us.component.ts" />
     <TypeScriptCompile Include="src\app\cosplay-contest\cosplay-contest.component.ts" />
+    <TypeScriptCompile Include="src\app\cosplay-contest\judge-guidelines\judge-guidelines.component.ts" />
+    <TypeScriptCompile Include="src\app\cosplay-contest\judge-guidelines\rules-beach-craft\rules-beach-craft.component.ts" />
+    <TypeScriptCompile Include="src\app\cosplay-contest\judge-guidelines\rules-beach-runway\rules-beach-runway.component.ts" />
+    <TypeScriptCompile Include="src\app\cosplay-contest\judge-guidelines\rules-tourney-craft\rules-tourney-craft.component.ts" />
+    <TypeScriptCompile Include="src\app\cosplay-contest\judge-guidelines\rules-tourney-runway\rules-tourney-runway.component.ts" />
     <TypeScriptCompile Include="src\app\cosplay-contest\overview\overview.component.ts" />
     <TypeScriptCompile Include="src\app\events\host-an-event\host-an-event.component.ts" />
     <TypeScriptCompile Include="src\app\events\schedule\schedule.component.ts" />
@@ -525,6 +542,7 @@
     <TypeScriptCompile Include="src\app\info-and-tips\cococay\cococay.component.ts" />
     <TypeScriptCompile Include="src\app\info-and-tips\cosplay-guidelines\cosplay-guidelines.component.ts" />
     <TypeScriptCompile Include="src\app\info-and-tips\faq\faq.component.ts" />
+    <TypeScriptCompile Include="src\app\info-and-tips\key-west\key-west.component.ts" />
     <TypeScriptCompile Include="src\app\info-and-tips\location-maps\location-maps.component.ts" />
     <TypeScriptCompile Include="src\app\info-and-tips\nassau\nassau.component.ts" />
     <TypeScriptCompile Include="src\app\info-and-tips\port-canaveral\port-canaveral.component.ts" />

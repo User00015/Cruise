@@ -25,44 +25,23 @@ export class NavMenuComponent {
       icon: 'pi pi-book',
       items: [
         {
-          label: 'Cruise - 2026',
-          command: () => {
-            this.router.navigate(['/booking/2026/cruise'])
-          }
-        },
-        {
-          label: 'Hotel - 2026',
-          command: () => {
-            this.router.navigate(['/booking/2026/hotel'])
-          }
-        },
-        {
-          label: 'Transportation - 2026',
-          command: () => {
-            this.router.navigate(['/booking/transportation'])
-          }
-        },
-        {
-          label: '    -------------------    '
-        },
-        {
           label: 'Cruise - 2027',
           command: () => {
             this.router.navigate(['/booking/2027/cruise'])
           }
         },
-        {
-          label: 'Hotel - 2027',
-          command: () => {
-            this.router.navigate(['/booking/2027/hotel'])
-          }
-        },
-        {
-          label: 'Transportation - 2027',
-          command: () => {
-            this.router.navigate(['/booking/2027/hotel'])
-          }
-        },
+        // {
+        //   label: 'Hotel - 2027',
+        //   command: () => {
+        //     this.router.navigate(['/booking/2027/hotel'])
+        //   }
+        // },
+        // {
+        //   label: 'Transportation - 2027',
+        //   command: () => {
+        //     this.router.navigate(['/booking/2027/hotel'])
+        //   }
+        // },
       ]
     },
     {
@@ -139,12 +118,17 @@ export class NavMenuComponent {
           //  }
 
         },
+        // {
+        //   label: "Nassau",
+        //   command: () => {
+        //     this.router.navigate(['/info-and-tips/nassau'])
+        //   }
+        // },
         {
-          label: "Nassau",
+          label: "Key West",
           command: () => {
-            this.router.navigate(['/info-and-tips/nassau'])
+            this.router.navigate(['/info-and-tips/key-west'])
           }
-
         },
         {
           label: "Location Maps",
