@@ -9,5 +9,5 @@ import { PanelModule } from 'primeng/panel';
   styleUrl: './terms-general.component.scss'
 })
 export class TermsGeneralComponent {
-
+  readonly year = new Date().getFullYear();
 }

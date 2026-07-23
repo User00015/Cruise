@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class TermsAndConditionsComponent {
 
+  readonly year = new Date().getFullYear();
+
 }
