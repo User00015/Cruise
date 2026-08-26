@@ -461,6 +461,8 @@
     <Content Include="public\ship map 2.png" />
     <Content Include="public\ship1.svg" />
     <Content Include="public\ship2.svg" />
+    <Content Include="public\tru_1.png" />
+    <Content Include="public\tru_2.png" />
     <Content Include="public\weebsoup-cosplay.png" />
     <Content Include="public\weebsoup-cosplay_half.png" />
     <Content Include="src\app\app.component.html" />

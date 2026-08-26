@@ -30,12 +30,12 @@ export class NavMenuComponent {
             this.router.navigate(['/booking/2027/cruise'])
           }
         },
-        // {
-        //   label: 'Hotel - 2027',
-        //   command: () => {
-        //     this.router.navigate(['/booking/2027/hotel'])
-        //   }
-        // },
+        {
+          label: 'Hotel - 2027',
+          command: () => {
+            this.router.navigate(['/booking/2027/hotel'])
+          }
+        },
         // {
         //   label: 'Transportation - 2027',
         //   command: () => {
