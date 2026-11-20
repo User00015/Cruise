@@ -41,11 +41,13 @@ import { RulesBeachCraftComponent } from './cosplay-contest/judge-guidelines/rul
 import { RulesTourneyRunwayComponent } from './cosplay-contest/judge-guidelines/rules-tourney-runway/rules-tourney-runway.component';
 import { RulesTourneyCraftComponent } from './cosplay-contest/judge-guidelines/rules-tourney-craft/rules-tourney-craft.component';
 import { KeyWestComponent } from './info-and-tips/key-west/key-west.component';
+import { Cruise2028Component } from './booking/cruise/2028/cruise.component';
 
 export const routes: Routes = [
   { path: 'landing-page', component: LandingPageComponent },
   { path: 'booking/2026/cruise', component: Cruise2026Component },
   { path: 'booking/2027/cruise', component: Cruise2027Component },
+  { path: 'booking/2028/cruise', component: Cruise2028Component },
   { path: 'booking/2026/hotel', component: Hotel2026Component },
   { path: 'booking/2027/hotel', component: Hotel2027Component },
   { path: 'booking/transportation', component: TransportationComponent },

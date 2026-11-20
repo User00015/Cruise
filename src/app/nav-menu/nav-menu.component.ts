@@ -36,6 +36,15 @@ export class NavMenuComponent {
             this.router.navigate(['/booking/2027/hotel'])
           }
         },
+        {
+          label: '    -------------------    '
+        },
+        {
+          label: 'Cruise - 2028',
+          command: () => {
+            this.router.navigate(['/booking/2028/cruise'])
+          }
+        },
         // {
         //   label: 'Transportation - 2027',
         //   command: () => {

@@ -55,6 +55,7 @@
     <None Include="README.md" />
     <None Include="src\app\app.component.scss" />
     <None Include="src\app\booking\cruise\2027\cruise.component.scss" />
+    <None Include="src\app\booking\cruise\2028\cruise.component.scss" />
     <None Include="src\app\booking\cruise\common\cruise-footer\cruise-footer.component.scss" />
     <None Include="src\app\booking\cruise\2026\cruise.component.scss" />
     <None Include="src\app\booking\hotel\2026\hotel2026.component.scss" />
@@ -467,6 +468,7 @@
     <Content Include="public\weebsoup-cosplay_half.png" />
     <Content Include="src\app\app.component.html" />
     <Content Include="src\app\booking\cruise\2027\cruise.component.html" />
+    <Content Include="src\app\booking\cruise\2028\cruise.component.html" />
     <Content Include="src\app\booking\cruise\common\cruise-footer\cruise-footer.component.html" />
     <Content Include="src\app\booking\cruise\2026\cruise.component.html" />
     <Content Include="src\app\booking\hotel\2026\hotel2026.component.html" />
@@ -521,6 +523,7 @@
     <TypeScriptCompile Include="src\app\app.config.ts" />
     <TypeScriptCompile Include="src\app\app.routes.ts" />
     <TypeScriptCompile Include="src\app\booking\cruise\2027\cruise.component.ts" />
+    <TypeScriptCompile Include="src\app\booking\cruise\2028\cruise.component.ts" />
     <TypeScriptCompile Include="src\app\booking\cruise\common\cruise-footer\cruise-footer.component.ts" />
     <TypeScriptCompile Include="src\app\booking\cruise\2026\cruise.component.ts" />
     <TypeScriptCompile Include="src\app\booking\hotel\2026\hotel2026.component.ts" />
